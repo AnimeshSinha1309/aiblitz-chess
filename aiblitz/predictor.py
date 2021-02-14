@@ -1,6 +1,7 @@
 import os
 
 import numpy as np
+import matplotlib.pyplot as plt
 import tqdm
 
 import torch
@@ -33,7 +34,15 @@ class BoardPredictionDataset(Dataset):
     def __str__(self):
         return "Predicting Q%d-%s" % (self.question, self.directory)
 
-
+def predict_one(model, image_frame):
+    image = segment_image(image_frame)
+    x = torch.stack([torch.from_numpy(image)])
+    x = x.view(-1, 1, 32, 32).float()
+    y = model(x)
+    y = torch.argmax(y, -1)
+    y = y.view(-1, 8, 8)
+    return y
+    
 def predict(dataset):
     model = Net()
     model.load_state_dict(torch.load("weights/piece-recognizer.h5"))

@@ -4,8 +4,11 @@ from matplotlib import pyplot as plt
 import cv2 as cv
 
 
-def segment_image(path, result_size=32):
-    image = cv.imread(path)
+def segment_image(image_or_path, result_size=32):
+    if isinstance(image_or_path, str):
+        image = cv.imread(image_or_path)
+    else:
+        image = image_or_path
     image = cv.cvtColor(image, cv.COLOR_BGR2GRAY)
     image = cv.resize(image, (8 * result_size, 8 * result_size))
     image = image.reshape((8, result_size, 8, result_size)).transpose(0, 2, 1, 3)
