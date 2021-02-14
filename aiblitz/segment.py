@@ -3,6 +3,7 @@ import pandas as pd
 from matplotlib import pyplot as plt
 import cv2 as cv
 
+
 def segment_image(path, result_size=32):
     image = cv.imread(path)
     image = cv.cvtColor(image, cv.COLOR_BGR2GRAY)
@@ -36,6 +37,25 @@ def parse_fen(fen):
                 result[i, j] = piece_to_idx[char]
                 j += 1
     return result
+
+
+def store_fen(board):
+    result = []
+    for row in board:
+        row_val, gap = "", 0
+        for cell in row:
+            piece = idx_to_piece[cell]
+            if piece == ' ':
+                gap += 1
+            else:
+                if gap > 0:
+                    row_val += str(gap)
+                    gap = 0
+                row_val += piece
+        if gap > 0:
+            row_val += str(gap)
+        result.append(row_val)
+    return "/".join(result)
 
 
 if __name__ == "__main__":
