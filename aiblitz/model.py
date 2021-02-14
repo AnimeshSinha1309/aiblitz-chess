@@ -21,6 +21,7 @@ class ChessPiecesDataset(Dataset):
         df = pd.read_csv("data/Q%d/%s.csv" % (question, directory))
         self.images = df["ImageID"]
         self.labels = df["label"]
+        self.question = question
         self.directory = directory
 
     def __len__(self):
@@ -28,7 +29,7 @@ class ChessPiecesDataset(Dataset):
 
     def __getitem__(self, idx):
         parsed_fen = parse_fen(self.labels[idx])
-        image_path = "data/Q3/%s/%d.jpg" % (self.directory, self.images[idx])
+        image_path = "data/Q%d/%s/%d.jpg" % (self.question, self.directory, self.images[idx])
         segmented_image = segment_image(image_path)
         return segmented_image, parsed_fen
 
