@@ -1,8 +1,1004 @@
 ImageID,label
 0,white
 1,white
+2,white
+3,white
+4,white
+5,white
+6,black
+7,black
+8,white
+9,black
 10,white
+11,white
+12,black
+13,black
+14,black
+15,white
+16,white
+17,white
+18,white
+19,black
+20,white
+21,black
+22,white
+23,white
+24,white
+25,black
+26,black
+27,black
+28,white
+29,black
+30,white
+31,white
+32,black
+33,black
+34,white
+35,white
+36,white
+37,black
+38,black
+39,black
+40,black
+41,black
+42,black
+43,black
+44,black
+45,white
+46,black
+47,black
+48,black
+49,black
+50,black
+51,white
+52,white
+53,black
+54,white
+55,black
+56,black
+57,white
+58,black
+59,black
+60,black
+61,black
+62,white
+63,black
+64,white
+65,white
+66,black
+67,black
+68,black
+69,black
+70,white
+71,white
+72,white
+73,white
+74,white
+75,white
+76,white
+77,black
+78,white
+79,white
+80,white
+81,white
+82,white
+83,white
+84,white
+85,white
+86,white
+87,white
+88,black
+89,white
+90,black
+91,white
+92,black
+93,white
+94,black
+95,white
+96,black
+97,white
+98,white
+99,white
 100,white
+101,white
+102,black
+103,white
+104,white
+105,black
+106,white
+107,black
+108,white
+109,black
+110,white
+111,white
+112,white
+113,white
+114,black
+115,white
+116,black
+117,white
+118,white
+119,white
+120,white
+121,white
+122,black
+123,black
+124,white
+125,white
+126,white
+127,white
+128,black
+129,black
+130,black
+131,white
+132,white
+133,white
+134,black
+135,black
+136,black
+137,white
+138,black
+139,black
+140,white
+141,black
+142,white
+143,black
+144,black
+145,black
+146,white
+147,black
+148,black
+149,white
+150,white
+151,white
+152,white
+153,white
+154,white
+155,white
+156,white
+157,white
+158,white
+159,black
+160,white
+161,white
+162,white
+163,white
+164,white
+165,white
+166,black
+167,white
+168,white
+169,black
+170,white
+171,black
+172,white
+173,black
+174,white
+175,white
+176,black
+177,white
+178,black
+179,black
+180,white
+181,white
+182,white
+183,black
+184,white
+185,white
+186,black
+187,white
+188,black
+189,white
+190,white
+191,white
+192,black
+193,white
+194,white
+195,white
+196,white
+197,black
+198,black
+199,black
+200,black
+201,black
+202,white
+203,black
+204,black
+205,white
+206,white
+207,black
+208,black
+209,white
+210,black
+211,white
+212,black
+213,black
+214,black
+215,black
+216,black
+217,black
+218,white
+219,black
+220,black
+221,black
+222,white
+223,white
+224,black
+225,white
+226,black
+227,white
+228,black
+229,white
+230,white
+231,black
+232,black
+233,white
+234,white
+235,black
+236,white
+237,white
+238,white
+239,black
+240,black
+241,black
+242,black
+243,black
+244,white
+245,black
+246,white
+247,black
+248,white
+249,white
+250,white
+251,white
+252,white
+253,white
+254,black
+255,black
+256,white
+257,white
+258,white
+259,white
+260,black
+261,white
+262,white
+263,black
+264,black
+265,white
+266,white
+267,white
+268,black
+269,white
+270,white
+271,black
+272,black
+273,black
+274,black
+275,black
+276,white
+277,black
+278,black
+279,black
+280,black
+281,black
+282,black
+283,black
+284,white
+285,black
+286,black
+287,white
+288,white
+289,white
+290,white
+291,white
+292,white
+293,white
+294,white
+295,black
+296,white
+297,white
+298,black
+299,white
+300,white
+301,black
+302,black
+303,black
+304,white
+305,white
+306,black
+307,white
+308,white
+309,black
+310,black
+311,black
+312,white
+313,white
+314,white
+315,black
+316,black
+317,white
+318,white
+319,white
+320,black
+321,white
+322,white
+323,white
+324,white
+325,white
+326,white
+327,black
+328,black
+329,black
+330,white
+331,black
+332,white
+333,black
+334,black
+335,white
+336,white
+337,black
+338,white
+339,white
+340,black
+341,white
+342,black
+343,black
+344,white
+345,white
+346,black
+347,black
+348,black
+349,black
+350,black
+351,black
+352,white
+353,black
+354,white
+355,black
+356,white
+357,black
+358,white
+359,black
+360,white
+361,black
+362,white
+363,white
+364,black
+365,black
+366,white
+367,white
+368,white
+369,black
+370,black
+371,white
+372,white
+373,white
+374,black
+375,black
+376,white
+377,white
+378,white
+379,white
+380,black
+381,white
+382,black
+383,white
+384,white
+385,white
+386,black
+387,white
+388,white
+389,white
+390,black
+391,white
+392,white
+393,black
+394,white
+395,white
+396,white
+397,white
+398,black
+399,white
+400,black
+401,black
+402,white
+403,black
+404,black
+405,white
+406,white
+407,black
+408,black
+409,white
+410,white
+411,black
+412,white
+413,black
+414,black
+415,white
+416,white
+417,white
+418,black
+419,white
+420,white
+421,white
+422,black
+423,black
+424,white
+425,black
+426,black
+427,white
+428,black
+429,black
+430,black
+431,white
+432,black
+433,black
+434,black
+435,white
+436,black
+437,black
+438,black
+439,black
+440,black
+441,white
+442,white
+443,white
+444,black
+445,black
+446,black
+447,black
+448,black
+449,white
+450,white
+451,black
+452,black
+453,white
+454,white
+455,white
+456,white
+457,white
+458,black
+459,white
+460,black
+461,black
+462,white
+463,white
+464,black
+465,black
+466,black
+467,white
+468,white
+469,white
+470,white
+471,white
+472,white
+473,black
+474,black
+475,white
+476,white
+477,black
+478,white
+479,black
+480,white
+481,black
+482,white
+483,white
+484,white
+485,black
+486,black
+487,black
+488,white
+489,black
+490,white
+491,black
+492,black
+493,black
+494,black
+495,black
+496,white
+497,black
+498,white
+499,white
+500,white
+501,black
+502,white
+503,black
+504,black
+505,white
+506,black
+507,black
+508,white
+509,black
+510,white
+511,white
+512,black
+513,white
+514,white
+515,black
+516,white
+517,black
+518,white
+519,white
+520,black
+521,black
+522,white
+523,black
+524,white
+525,white
+526,black
+527,black
+528,black
+529,white
+530,black
+531,white
+532,black
+533,black
+534,white
+535,black
+536,black
+537,white
+538,white
+539,white
+540,white
+541,white
+542,white
+543,white
+544,white
+545,black
+546,black
+547,black
+548,black
+549,white
+550,black
+551,black
+552,white
+553,white
+554,black
+555,black
+556,black
+557,black
+558,white
+559,white
+560,white
+561,black
+562,white
+563,black
+564,white
+565,black
+566,white
+567,black
+568,white
+569,black
+570,white
+571,white
+572,white
+573,black
+574,white
+575,black
+576,black
+577,white
+578,black
+579,white
+580,black
+581,white
+582,white
+583,black
+584,black
+585,white
+586,black
+587,white
+588,white
+589,white
+590,white
+591,black
+592,black
+593,black
+594,white
+595,white
+596,black
+597,black
+598,black
+599,white
+600,black
+601,black
+602,white
+603,white
+604,white
+605,white
+606,black
+607,black
+608,white
+609,black
+610,black
+611,white
+612,black
+613,black
+614,black
+615,black
+616,black
+617,white
+618,white
+619,white
+620,white
+621,black
+622,white
+623,white
+624,white
+625,white
+626,white
+627,white
+628,black
+629,black
+630,black
+631,white
+632,white
+633,white
+634,white
+635,black
+636,white
+637,white
+638,white
+639,white
+640,white
+641,white
+642,white
+643,white
+644,white
+645,black
+646,black
+647,black
+648,white
+649,black
+650,black
+651,black
+652,white
+653,black
+654,black
+655,white
+656,white
+657,white
+658,black
+659,white
+660,white
+661,black
+662,black
+663,white
+664,black
+665,white
+666,white
+667,white
+668,black
+669,white
+670,black
+671,white
+672,black
+673,black
+674,black
+675,white
+676,black
+677,black
+678,black
+679,black
+680,black
+681,black
+682,white
+683,white
+684,black
+685,black
+686,black
+687,black
+688,white
+689,white
+690,black
+691,black
+692,white
+693,white
+694,white
+695,white
+696,black
+697,white
+698,white
+699,black
+700,black
+701,black
+702,white
+703,black
+704,black
+705,black
+706,white
+707,white
+708,white
+709,white
+710,black
+711,white
+712,white
+713,white
+714,black
+715,black
+716,white
+717,black
+718,black
+719,black
+720,white
+721,white
+722,black
+723,black
+724,black
+725,white
+726,white
+727,white
+728,white
+729,black
+730,black
+731,white
+732,white
+733,white
+734,black
+735,white
+736,white
+737,black
+738,black
+739,white
+740,white
+741,black
+742,white
+743,black
+744,black
+745,white
+746,black
+747,black
+748,white
+749,white
+750,white
+751,white
+752,white
+753,white
+754,black
+755,black
+756,black
+757,white
+758,black
+759,white
+760,white
+761,black
+762,black
+763,black
+764,white
+765,black
+766,black
+767,black
+768,white
+769,white
+770,black
+771,black
+772,black
+773,black
+774,white
+775,white
+776,black
+777,black
+778,white
+779,white
+780,black
+781,black
+782,black
+783,black
+784,white
+785,white
+786,white
+787,black
+788,black
+789,white
+790,black
+791,white
+792,white
+793,white
+794,black
+795,black
+796,black
+797,black
+798,black
+799,black
+800,white
+801,black
+802,white
+803,white
+804,black
+805,black
+806,black
+807,black
+808,black
+809,white
+810,white
+811,black
+812,white
+813,black
+814,black
+815,white
+816,white
+817,black
+818,white
+819,white
+820,black
+821,black
+822,black
+823,black
+824,black
+825,black
+826,white
+827,black
+828,white
+829,white
+830,black
+831,white
+832,black
+833,white
+834,black
+835,white
+836,black
+837,black
+838,white
+839,black
+840,black
+841,black
+842,black
+843,white
+844,black
+845,white
+846,black
+847,white
+848,white
+849,black
+850,white
+851,white
+852,black
+853,white
+854,white
+855,white
+856,black
+857,white
+858,white
+859,white
+860,black
+861,white
+862,white
+863,white
+864,black
+865,white
+866,black
+867,white
+868,white
+869,black
+870,black
+871,black
+872,white
+873,white
+874,black
+875,black
+876,white
+877,white
+878,black
+879,white
+880,white
+881,white
+882,black
+883,white
+884,white
+885,black
+886,black
+887,white
+888,black
+889,black
+890,white
+891,white
+892,black
+893,black
+894,white
+895,black
+896,black
+897,black
+898,black
+899,white
+900,white
+901,black
+902,black
+903,white
+904,white
+905,white
+906,black
+907,black
+908,black
+909,black
+910,white
+911,white
+912,black
+913,white
+914,white
+915,black
+916,white
+917,white
+918,black
+919,white
+920,white
+921,black
+922,black
+923,black
+924,white
+925,black
+926,white
+927,black
+928,white
+929,white
+930,white
+931,white
+932,white
+933,white
+934,black
+935,white
+936,black
+937,black
+938,black
+939,white
+940,black
+941,black
+942,black
+943,white
+944,black
+945,black
+946,black
+947,black
+948,white
+949,white
+950,black
+951,white
+952,black
+953,white
+954,black
+955,white
+956,white
+957,black
+958,white
+959,white
+960,black
+961,white
+962,black
+963,white
+964,white
+965,white
+966,white
+967,black
+968,black
+969,black
+970,white
+971,black
+972,white
+973,black
+974,white
+975,white
+976,black
+977,black
+978,black
+979,white
+980,white
+981,black
+982,black
+983,white
+984,black
+985,white
+986,white
+987,white
+988,black
+989,white
+990,black
+991,black
+992,black
+993,black
+994,white
+995,white
+996,black
+997,white
+998,black
+999,white
 1000,black
 1001,white
 1002,black
@@ -13,7 +1009,6 @@ ImageID,label
 1007,black
 1008,black
 1009,white
-101,white
 1010,white
 1011,white
 1012,black
@@ -24,7 +1019,6 @@ ImageID,label
 1017,black
 1018,white
 1019,white
-102,black
 1020,black
 1021,black
 1022,black
@@ -35,7 +1029,6 @@ ImageID,label
 1027,black
 1028,black
 1029,black
-103,white
 1030,white
 1031,white
 1032,black
@@ -46,7 +1039,6 @@ ImageID,label
 1037,black
 1038,white
 1039,white
-104,white
 1040,black
 1041,white
 1042,black
@@ -57,7 +1049,6 @@ ImageID,label
 1047,black
 1048,black
 1049,white
-105,black
 1050,black
 1051,black
 1052,white
@@ -68,7 +1059,6 @@ ImageID,label
 1057,black
 1058,white
 1059,white
-106,white
 1060,black
 1061,white
 1062,white
@@ -79,7 +1069,6 @@ ImageID,label
 1067,white
 1068,white
 1069,white
-107,black
 1070,white
 1071,white
 1072,black
@@ -90,7 +1079,6 @@ ImageID,label
 1077,black
 1078,black
 1079,black
-108,white
 1080,black
 1081,white
 1082,white
@@ -101,7 +1089,6 @@ ImageID,label
 1087,white
 1088,black
 1089,black
-109,black
 1090,black
 1091,black
 1092,black
@@ -112,8 +1099,6 @@ ImageID,label
 1097,white
 1098,white
 1099,black
-11,white
-110,white
 1100,black
 1101,black
 1102,black
@@ -124,7 +1109,6 @@ ImageID,label
 1107,white
 1108,black
 1109,white
-111,white
 1110,white
 1111,black
 1112,white
@@ -135,7 +1119,6 @@ ImageID,label
 1117,black
 1118,white
 1119,black
-112,white
 1120,black
 1121,black
 1122,white
@@ -146,7 +1129,6 @@ ImageID,label
 1127,white
 1128,black
 1129,black
-113,white
 1130,black
 1131,white
 1132,black
@@ -157,7 +1139,6 @@ ImageID,label
 1137,white
 1138,black
 1139,black
-114,black
 1140,black
 1141,black
 1142,black
@@ -168,7 +1149,6 @@ ImageID,label
 1147,white
 1148,black
 1149,white
-115,white
 1150,black
 1151,black
 1152,white
@@ -179,7 +1159,6 @@ ImageID,label
 1157,black
 1158,black
 1159,black
-116,black
 1160,black
 1161,black
 1162,black
@@ -190,7 +1169,6 @@ ImageID,label
 1167,black
 1168,black
 1169,white
-117,white
 1170,white
 1171,white
 1172,white
@@ -201,7 +1179,6 @@ ImageID,label
 1177,black
 1178,white
 1179,black
-118,white
 1180,white
 1181,black
 1182,black
@@ -212,7 +1189,6 @@ ImageID,label
 1187,white
 1188,black
 1189,white
-119,white
 1190,black
 1191,white
 1192,white
@@ -223,8 +1199,6 @@ ImageID,label
 1197,black
 1198,white
 1199,black
-12,black
-120,white
 1200,black
 1201,white
 1202,black
@@ -235,7 +1209,6 @@ ImageID,label
 1207,black
 1208,black
 1209,white
-121,white
 1210,black
 1211,black
 1212,black
@@ -246,7 +1219,6 @@ ImageID,label
 1217,black
 1218,white
 1219,white
-122,black
 1220,white
 1221,black
 1222,black
@@ -257,7 +1229,6 @@ ImageID,label
 1227,white
 1228,white
 1229,white
-123,black
 1230,white
 1231,white
 1232,white
@@ -268,7 +1239,6 @@ ImageID,label
 1237,black
 1238,black
 1239,white
-124,white
 1240,white
 1241,black
 1242,black
@@ -279,7 +1249,6 @@ ImageID,label
 1247,white
 1248,white
 1249,black
-125,white
 1250,black
 1251,white
 1252,black
@@ -290,7 +1259,6 @@ ImageID,label
 1257,black
 1258,black
 1259,black
-126,white
 1260,white
 1261,black
 1262,white
@@ -301,7 +1269,6 @@ ImageID,label
 1267,white
 1268,white
 1269,white
-127,white
 1270,white
 1271,black
 1272,black
@@ -312,7 +1279,6 @@ ImageID,label
 1277,black
 1278,black
 1279,black
-128,black
 1280,white
 1281,white
 1282,white
@@ -323,7 +1289,6 @@ ImageID,label
 1287,black
 1288,white
 1289,white
-129,black
 1290,white
 1291,black
 1292,white
@@ -334,8 +1299,6 @@ ImageID,label
 1297,black
 1298,white
 1299,white
-13,black
-130,black
 1300,black
 1301,black
 1302,white
@@ -346,7 +1309,6 @@ ImageID,label
 1307,white
 1308,white
 1309,white
-131,white
 1310,black
 1311,black
 1312,black
@@ -357,7 +1319,6 @@ ImageID,label
 1317,white
 1318,white
 1319,black
-132,white
 1320,black
 1321,black
 1322,black
@@ -368,7 +1329,6 @@ ImageID,label
 1327,black
 1328,white
 1329,black
-133,white
 1330,black
 1331,white
 1332,white
@@ -379,7 +1339,6 @@ ImageID,label
 1337,white
 1338,black
 1339,white
-134,black
 1340,white
 1341,white
 1342,white
@@ -390,7 +1349,6 @@ ImageID,label
 1347,black
 1348,white
 1349,black
-135,black
 1350,black
 1351,black
 1352,black
@@ -401,7 +1359,6 @@ ImageID,label
 1357,white
 1358,white
 1359,white
-136,black
 1360,black
 1361,white
 1362,white
@@ -412,7 +1369,6 @@ ImageID,label
 1367,black
 1368,white
 1369,black
-137,white
 1370,black
 1371,white
 1372,black
@@ -423,7 +1379,6 @@ ImageID,label
 1377,white
 1378,black
 1379,black
-138,black
 1380,black
 1381,white
 1382,white
@@ -434,7 +1389,6 @@ ImageID,label
 1387,black
 1388,black
 1389,white
-139,black
 1390,white
 1391,black
 1392,white
@@ -445,8 +1399,6 @@ ImageID,label
 1397,white
 1398,white
 1399,black
-14,black
-140,white
 1400,white
 1401,white
 1402,white
@@ -457,7 +1409,6 @@ ImageID,label
 1407,white
 1408,white
 1409,black
-141,black
 1410,black
 1411,white
 1412,black
@@ -468,7 +1419,6 @@ ImageID,label
 1417,white
 1418,white
 1419,black
-142,white
 1420,white
 1421,black
 1422,black
@@ -479,7 +1429,6 @@ ImageID,label
 1427,black
 1428,black
 1429,black
-143,black
 1430,black
 1431,white
 1432,black
@@ -490,7 +1439,6 @@ ImageID,label
 1437,black
 1438,white
 1439,black
-144,black
 1440,black
 1441,black
 1442,white
@@ -501,7 +1449,6 @@ ImageID,label
 1447,black
 1448,white
 1449,white
-145,black
 1450,white
 1451,black
 1452,white
@@ -512,7 +1459,6 @@ ImageID,label
 1457,black
 1458,white
 1459,white
-146,white
 1460,black
 1461,black
 1462,black
@@ -523,7 +1469,6 @@ ImageID,label
 1467,white
 1468,white
 1469,white
-147,black
 1470,white
 1471,white
 1472,white
@@ -534,7 +1479,6 @@ ImageID,label
 1477,black
 1478,black
 1479,black
-148,black
 1480,white
 1481,white
 1482,white
@@ -545,7 +1489,6 @@ ImageID,label
 1487,black
 1488,white
 1489,white
-149,white
 1490,black
 1491,white
 1492,white
@@ -556,8 +1499,6 @@ ImageID,label
 1497,white
 1498,white
 1499,black
-15,white
-150,white
 1500,black
 1501,white
 1502,white
@@ -568,7 +1509,6 @@ ImageID,label
 1507,white
 1508,black
 1509,white
-151,white
 1510,black
 1511,white
 1512,black
@@ -579,7 +1519,6 @@ ImageID,label
 1517,black
 1518,black
 1519,white
-152,white
 1520,white
 1521,black
 1522,black
@@ -590,7 +1529,6 @@ ImageID,label
 1527,black
 1528,white
 1529,white
-153,white
 1530,white
 1531,black
 1532,black
@@ -601,7 +1539,6 @@ ImageID,label
 1537,white
 1538,white
 1539,white
-154,white
 1540,white
 1541,black
 1542,white
@@ -612,7 +1549,6 @@ ImageID,label
 1547,white
 1548,white
 1549,white
-155,white
 1550,black
 1551,black
 1552,white
@@ -623,7 +1559,6 @@ ImageID,label
 1557,black
 1558,black
 1559,black
-156,white
 1560,white
 1561,black
 1562,white
@@ -634,7 +1569,6 @@ ImageID,label
 1567,black
 1568,white
 1569,white
-157,white
 1570,white
 1571,white
 1572,white
@@ -645,7 +1579,6 @@ ImageID,label
 1577,black
 1578,white
 1579,black
-158,white
 1580,white
 1581,white
 1582,white
@@ -656,7 +1589,6 @@ ImageID,label
 1587,white
 1588,black
 1589,black
-159,black
 1590,black
 1591,white
 1592,black
@@ -667,8 +1599,6 @@ ImageID,label
 1597,black
 1598,black
 1599,black
-16,white
-160,white
 1600,white
 1601,black
 1602,black
@@ -679,7 +1609,6 @@ ImageID,label
 1607,white
 1608,black
 1609,white
-161,white
 1610,black
 1611,black
 1612,black
@@ -690,7 +1619,6 @@ ImageID,label
 1617,white
 1618,black
 1619,white
-162,white
 1620,white
 1621,white
 1622,black
@@ -701,7 +1629,6 @@ ImageID,label
 1627,black
 1628,white
 1629,white
-163,white
 1630,white
 1631,white
 1632,black
@@ -712,7 +1639,6 @@ ImageID,label
 1637,black
 1638,black
 1639,white
-164,white
 1640,white
 1641,white
 1642,black
@@ -723,7 +1649,6 @@ ImageID,label
 1647,black
 1648,black
 1649,black
-165,white
 1650,white
 1651,black
 1652,black
@@ -734,7 +1659,6 @@ ImageID,label
 1657,white
 1658,black
 1659,white
-166,black
 1660,white
 1661,black
 1662,black
@@ -745,7 +1669,6 @@ ImageID,label
 1667,white
 1668,white
 1669,black
-167,white
 1670,black
 1671,black
 1672,white
@@ -756,7 +1679,6 @@ ImageID,label
 1677,white
 1678,white
 1679,black
-168,white
 1680,black
 1681,black
 1682,black
@@ -767,7 +1689,6 @@ ImageID,label
 1687,white
 1688,white
 1689,white
-169,black
 1690,white
 1691,black
 1692,black
@@ -778,8 +1699,6 @@ ImageID,label
 1697,black
 1698,white
 1699,black
-17,white
-170,white
 1700,white
 1701,white
 1702,white
@@ -790,7 +1709,6 @@ ImageID,label
 1707,white
 1708,white
 1709,white
-171,black
 1710,black
 1711,white
 1712,white
@@ -801,7 +1719,6 @@ ImageID,label
 1717,white
 1718,white
 1719,black
-172,white
 1720,black
 1721,black
 1722,white
@@ -812,7 +1729,6 @@ ImageID,label
 1727,white
 1728,white
 1729,black
-173,black
 1730,black
 1731,white
 1732,black
@@ -823,7 +1739,6 @@ ImageID,label
 1737,black
 1738,black
 1739,white
-174,white
 1740,black
 1741,black
 1742,black
@@ -834,7 +1749,6 @@ ImageID,label
 1747,black
 1748,white
 1749,white
-175,white
 1750,black
 1751,black
 1752,black
@@ -845,7 +1759,6 @@ ImageID,label
 1757,white
 1758,black
 1759,black
-176,black
 1760,black
 1761,white
 1762,white
@@ -856,7 +1769,6 @@ ImageID,label
 1767,white
 1768,black
 1769,white
-177,white
 1770,white
 1771,black
 1772,white
@@ -867,7 +1779,6 @@ ImageID,label
 1777,black
 1778,white
 1779,white
-178,black
 1780,black
 1781,white
 1782,white
@@ -878,7 +1789,6 @@ ImageID,label
 1787,black
 1788,black
 1789,white
-179,black
 1790,white
 1791,black
 1792,black
@@ -889,8 +1799,6 @@ ImageID,label
 1797,white
 1798,white
 1799,black
-18,white
-180,white
 1800,white
 1801,white
 1802,black
@@ -901,7 +1809,6 @@ ImageID,label
 1807,white
 1808,black
 1809,white
-181,white
 1810,black
 1811,black
 1812,black
@@ -912,7 +1819,6 @@ ImageID,label
 1817,black
 1818,white
 1819,black
-182,white
 1820,black
 1821,white
 1822,white
@@ -923,7 +1829,6 @@ ImageID,label
 1827,white
 1828,white
 1829,black
-183,black
 1830,white
 1831,white
 1832,black
@@ -934,7 +1839,6 @@ ImageID,label
 1837,black
 1838,black
 1839,black
-184,white
 1840,white
 1841,white
 1842,black
@@ -945,7 +1849,6 @@ ImageID,label
 1847,black
 1848,black
 1849,black
-185,white
 1850,white
 1851,black
 1852,white
@@ -956,7 +1859,6 @@ ImageID,label
 1857,white
 1858,black
 1859,white
-186,black
 1860,black
 1861,white
 1862,black
@@ -967,7 +1869,6 @@ ImageID,label
 1867,white
 1868,black
 1869,white
-187,white
 1870,black
 1871,white
 1872,black
@@ -978,7 +1879,6 @@ ImageID,label
 1877,white
 1878,white
 1879,black
-188,black
 1880,white
 1881,black
 1882,white
@@ -989,7 +1889,6 @@ ImageID,label
 1887,white
 1888,white
 1889,black
-189,white
 1890,white
 1891,black
 1892,black
@@ -1000,8 +1899,6 @@ ImageID,label
 1897,white
 1898,black
 1899,black
-19,black
-190,white
 1900,white
 1901,white
 1902,white
@@ -1012,7 +1909,6 @@ ImageID,label
 1907,white
 1908,white
 1909,black
-191,white
 1910,white
 1911,white
 1912,white
@@ -1023,7 +1919,6 @@ ImageID,label
 1917,white
 1918,black
 1919,black
-192,black
 1920,white
 1921,white
 1922,white
@@ -1034,7 +1929,6 @@ ImageID,label
 1927,black
 1928,white
 1929,white
-193,white
 1930,black
 1931,white
 1932,black
@@ -1045,7 +1939,6 @@ ImageID,label
 1937,black
 1938,black
 1939,white
-194,white
 1940,white
 1941,black
 1942,white
@@ -1056,7 +1949,6 @@ ImageID,label
 1947,white
 1948,white
 1949,white
-195,white
 1950,white
 1951,black
 1952,black
@@ -1067,7 +1959,6 @@ ImageID,label
 1957,black
 1958,white
 1959,black
-196,white
 1960,black
 1961,white
 1962,white
@@ -1078,7 +1969,6 @@ ImageID,label
 1967,black
 1968,black
 1969,white
-197,black
 1970,white
 1971,white
 1972,black
@@ -1089,7 +1979,6 @@ ImageID,label
 1977,white
 1978,black
 1979,white
-198,black
 1980,white
 1981,white
 1982,black
@@ -1100,7 +1989,6 @@ ImageID,label
 1987,white
 1988,black
 1989,black
-199,black
 1990,white
 1991,black
 1992,black
@@ -1111,9 +1999,6 @@ ImageID,label
 1997,white
 1998,white
 1999,black
-2,white
-20,white
-200,black
 2000,black
 2001,white
 2002,black
@@ -1124,7 +2009,6 @@ ImageID,label
 2007,white
 2008,white
 2009,black
-201,black
 2010,white
 2011,white
 2012,white
@@ -1135,7 +2019,6 @@ ImageID,label
 2017,white
 2018,white
 2019,white
-202,white
 2020,black
 2021,black
 2022,black
@@ -1146,7 +2029,6 @@ ImageID,label
 2027,black
 2028,white
 2029,white
-203,black
 2030,black
 2031,white
 2032,black
@@ -1157,7 +2039,6 @@ ImageID,label
 2037,white
 2038,black
 2039,white
-204,black
 2040,white
 2041,white
 2042,white
@@ -1168,7 +2049,6 @@ ImageID,label
 2047,white
 2048,white
 2049,white
-205,white
 2050,white
 2051,white
 2052,white
@@ -1179,7 +2059,6 @@ ImageID,label
 2057,black
 2058,white
 2059,white
-206,white
 2060,white
 2061,white
 2062,white
@@ -1190,7 +2069,6 @@ ImageID,label
 2067,black
 2068,black
 2069,black
-207,black
 2070,white
 2071,white
 2072,black
@@ -1201,7 +2079,6 @@ ImageID,label
 2077,black
 2078,black
 2079,white
-208,black
 2080,black
 2081,black
 2082,white
@@ -1212,7 +2089,6 @@ ImageID,label
 2087,white
 2088,black
 2089,white
-209,white
 2090,white
 2091,white
 2092,white
@@ -1223,8 +2099,6 @@ ImageID,label
 2097,black
 2098,black
 2099,white
-21,black
-210,black
 2100,black
 2101,white
 2102,white
@@ -1235,7 +2109,6 @@ ImageID,label
 2107,white
 2108,black
 2109,white
-211,white
 2110,white
 2111,black
 2112,black
@@ -1246,7 +2119,6 @@ ImageID,label
 2117,white
 2118,white
 2119,black
-212,black
 2120,white
 2121,white
 2122,black
@@ -1257,7 +2129,6 @@ ImageID,label
 2127,white
 2128,black
 2129,black
-213,black
 2130,white
 2131,black
 2132,black
@@ -1268,7 +2139,6 @@ ImageID,label
 2137,white
 2138,black
 2139,white
-214,black
 2140,white
 2141,white
 2142,white
@@ -1279,7 +2149,6 @@ ImageID,label
 2147,black
 2148,black
 2149,black
-215,black
 2150,white
 2151,white
 2152,black
@@ -1290,7 +2159,6 @@ ImageID,label
 2157,white
 2158,white
 2159,black
-216,black
 2160,white
 2161,white
 2162,white
@@ -1301,7 +2169,6 @@ ImageID,label
 2167,white
 2168,black
 2169,white
-217,black
 2170,white
 2171,white
 2172,white
@@ -1312,7 +2179,6 @@ ImageID,label
 2177,white
 2178,white
 2179,black
-218,white
 2180,black
 2181,white
 2182,white
@@ -1323,7 +2189,6 @@ ImageID,label
 2187,white
 2188,black
 2189,white
-219,black
 2190,black
 2191,white
 2192,black
@@ -1334,8 +2199,6 @@ ImageID,label
 2197,white
 2198,white
 2199,white
-22,white
-220,black
 2200,black
 2201,white
 2202,black
@@ -1346,7 +2209,6 @@ ImageID,label
 2207,black
 2208,black
 2209,black
-221,black
 2210,white
 2211,black
 2212,white
@@ -1357,7 +2219,6 @@ ImageID,label
 2217,black
 2218,black
 2219,black
-222,white
 2220,white
 2221,white
 2222,black
@@ -1368,7 +2229,6 @@ ImageID,label
 2227,black
 2228,black
 2229,black
-223,white
 2230,black
 2231,black
 2232,white
@@ -1379,7 +2239,6 @@ ImageID,label
 2237,white
 2238,white
 2239,black
-224,black
 2240,white
 2241,white
 2242,black
@@ -1390,7 +2249,6 @@ ImageID,label
 2247,black
 2248,black
 2249,white
-225,white
 2250,white
 2251,black
 2252,black
@@ -1401,7 +2259,6 @@ ImageID,label
 2257,black
 2258,black
 2259,white
-226,black
 2260,white
 2261,white
 2262,black
@@ -1412,7 +2269,6 @@ ImageID,label
 2267,black
 2268,white
 2269,white
-227,white
 2270,black
 2271,black
 2272,white
@@ -1423,7 +2279,6 @@ ImageID,label
 2277,black
 2278,black
 2279,black
-228,black
 2280,black
 2281,white
 2282,white
@@ -1434,7 +2289,6 @@ ImageID,label
 2287,white
 2288,white
 2289,white
-229,white
 2290,white
 2291,black
 2292,black
@@ -1445,8 +2299,6 @@ ImageID,label
 2297,black
 2298,white
 2299,white
-23,white
-230,white
 2300,black
 2301,white
 2302,white
@@ -1457,7 +2309,6 @@ ImageID,label
 2307,white
 2308,black
 2309,black
-231,black
 2310,white
 2311,black
 2312,black
@@ -1468,7 +2319,6 @@ ImageID,label
 2317,white
 2318,white
 2319,black
-232,black
 2320,black
 2321,white
 2322,white
@@ -1479,7 +2329,6 @@ ImageID,label
 2327,white
 2328,black
 2329,black
-233,white
 2330,white
 2331,black
 2332,black
@@ -1490,7 +2339,6 @@ ImageID,label
 2337,white
 2338,black
 2339,white
-234,white
 2340,black
 2341,white
 2342,black
@@ -1501,7 +2349,6 @@ ImageID,label
 2347,black
 2348,white
 2349,black
-235,black
 2350,black
 2351,white
 2352,white
@@ -1512,7 +2359,6 @@ ImageID,label
 2357,black
 2358,black
 2359,black
-236,white
 2360,black
 2361,black
 2362,black
@@ -1523,7 +2369,6 @@ ImageID,label
 2367,white
 2368,black
 2369,white
-237,white
 2370,black
 2371,white
 2372,black
@@ -1534,7 +2379,6 @@ ImageID,label
 2377,white
 2378,white
 2379,white
-238,white
 2380,black
 2381,white
 2382,black
@@ -1545,7 +2389,6 @@ ImageID,label
 2387,white
 2388,black
 2389,black
-239,black
 2390,black
 2391,white
 2392,black
@@ -1556,8 +2399,6 @@ ImageID,label
 2397,white
 2398,white
 2399,black
-24,white
-240,black
 2400,white
 2401,black
 2402,black
@@ -1568,7 +2409,6 @@ ImageID,label
 2407,black
 2408,white
 2409,black
-241,black
 2410,black
 2411,white
 2412,white
@@ -1579,7 +2419,6 @@ ImageID,label
 2417,white
 2418,black
 2419,white
-242,black
 2420,black
 2421,black
 2422,white
@@ -1590,7 +2429,6 @@ ImageID,label
 2427,white
 2428,white
 2429,black
-243,black
 2430,black
 2431,black
 2432,white
@@ -1601,7 +2439,6 @@ ImageID,label
 2437,black
 2438,black
 2439,white
-244,white
 2440,white
 2441,black
 2442,white
@@ -1612,7 +2449,6 @@ ImageID,label
 2447,black
 2448,black
 2449,black
-245,black
 2450,white
 2451,black
 2452,white
@@ -1623,7 +2459,6 @@ ImageID,label
 2457,white
 2458,white
 2459,black
-246,white
 2460,black
 2461,white
 2462,white
@@ -1634,7 +2469,6 @@ ImageID,label
 2467,white
 2468,white
 2469,white
-247,black
 2470,white
 2471,white
 2472,black
@@ -1645,7 +2479,6 @@ ImageID,label
 2477,white
 2478,black
 2479,white
-248,white
 2480,black
 2481,black
 2482,white
@@ -1656,7 +2489,6 @@ ImageID,label
 2487,black
 2488,black
 2489,black
-249,white
 2490,black
 2491,black
 2492,white
@@ -1667,8 +2499,6 @@ ImageID,label
 2497,black
 2498,white
 2499,black
-25,black
-250,white
 2500,white
 2501,white
 2502,white
@@ -1679,7 +2509,6 @@ ImageID,label
 2507,black
 2508,black
 2509,white
-251,white
 2510,black
 2511,white
 2512,white
@@ -1690,7 +2519,6 @@ ImageID,label
 2517,white
 2518,white
 2519,black
-252,white
 2520,white
 2521,black
 2522,white
@@ -1701,7 +2529,6 @@ ImageID,label
 2527,white
 2528,black
 2529,white
-253,white
 2530,white
 2531,black
 2532,white
@@ -1712,7 +2539,6 @@ ImageID,label
 2537,white
 2538,black
 2539,black
-254,black
 2540,black
 2541,black
 2542,black
@@ -1723,7 +2549,6 @@ ImageID,label
 2547,white
 2548,white
 2549,black
-255,black
 2550,black
 2551,white
 2552,black
@@ -1734,7 +2559,6 @@ ImageID,label
 2557,white
 2558,white
 2559,black
-256,white
 2560,black
 2561,white
 2562,white
@@ -1745,7 +2569,6 @@ ImageID,label
 2567,black
 2568,white
 2569,black
-257,white
 2570,black
 2571,black
 2572,white
@@ -1756,7 +2579,6 @@ ImageID,label
 2577,black
 2578,white
 2579,white
-258,white
 2580,black
 2581,white
 2582,white
@@ -1767,7 +2589,6 @@ ImageID,label
 2587,black
 2588,black
 2589,white
-259,white
 2590,black
 2591,white
 2592,white
@@ -1778,8 +2599,6 @@ ImageID,label
 2597,white
 2598,black
 2599,black
-26,black
-260,black
 2600,black
 2601,black
 2602,white
@@ -1790,7 +2609,6 @@ ImageID,label
 2607,black
 2608,black
 2609,black
-261,white
 2610,white
 2611,black
 2612,white
@@ -1801,7 +2619,6 @@ ImageID,label
 2617,black
 2618,black
 2619,black
-262,white
 2620,black
 2621,white
 2622,black
@@ -1812,7 +2629,6 @@ ImageID,label
 2627,black
 2628,black
 2629,black
-263,black
 2630,white
 2631,black
 2632,white
@@ -1823,7 +2639,6 @@ ImageID,label
 2637,black
 2638,black
 2639,white
-264,black
 2640,black
 2641,black
 2642,black
@@ -1834,7 +2649,6 @@ ImageID,label
 2647,black
 2648,black
 2649,black
-265,white
 2650,white
 2651,black
 2652,white
@@ -1845,7 +2659,6 @@ ImageID,label
 2657,white
 2658,black
 2659,white
-266,white
 2660,white
 2661,black
 2662,white
@@ -1856,7 +2669,6 @@ ImageID,label
 2667,black
 2668,white
 2669,black
-267,white
 2670,black
 2671,white
 2672,white
@@ -1867,7 +2679,6 @@ ImageID,label
 2677,black
 2678,white
 2679,black
-268,black
 2680,white
 2681,white
 2682,black
@@ -1878,7 +2689,6 @@ ImageID,label
 2687,black
 2688,white
 2689,white
-269,white
 2690,white
 2691,white
 2692,white
@@ -1889,8 +2699,6 @@ ImageID,label
 2697,white
 2698,black
 2699,black
-27,black
-270,white
 2700,white
 2701,white
 2702,white
@@ -1901,7 +2709,6 @@ ImageID,label
 2707,black
 2708,white
 2709,black
-271,black
 2710,white
 2711,white
 2712,white
@@ -1912,7 +2719,6 @@ ImageID,label
 2717,black
 2718,black
 2719,white
-272,black
 2720,white
 2721,white
 2722,white
@@ -1923,7 +2729,6 @@ ImageID,label
 2727,white
 2728,white
 2729,black
-273,black
 2730,white
 2731,white
 2732,white
@@ -1934,7 +2739,6 @@ ImageID,label
 2737,black
 2738,white
 2739,white
-274,black
 2740,black
 2741,white
 2742,white
@@ -1945,7 +2749,6 @@ ImageID,label
 2747,white
 2748,black
 2749,black
-275,black
 2750,black
 2751,black
 2752,white
@@ -1956,7 +2759,6 @@ ImageID,label
 2757,black
 2758,black
 2759,black
-276,white
 2760,white
 2761,white
 2762,white
@@ -1967,7 +2769,6 @@ ImageID,label
 2767,black
 2768,black
 2769,black
-277,black
 2770,white
 2771,black
 2772,white
@@ -1978,7 +2779,6 @@ ImageID,label
 2777,white
 2778,white
 2779,white
-278,black
 2780,black
 2781,black
 2782,black
@@ -1989,7 +2789,6 @@ ImageID,label
 2787,black
 2788,black
 2789,white
-279,black
 2790,black
 2791,black
 2792,black
@@ -2000,8 +2799,6 @@ ImageID,label
 2797,black
 2798,white
 2799,white
-28,white
-280,black
 2800,black
 2801,black
 2802,black
@@ -2012,7 +2809,6 @@ ImageID,label
 2807,black
 2808,white
 2809,black
-281,black
 2810,white
 2811,black
 2812,white
@@ -2023,7 +2819,6 @@ ImageID,label
 2817,white
 2818,white
 2819,white
-282,black
 2820,black
 2821,white
 2822,white
@@ -2034,7 +2829,6 @@ ImageID,label
 2827,black
 2828,black
 2829,white
-283,black
 2830,white
 2831,black
 2832,white
@@ -2045,7 +2839,6 @@ ImageID,label
 2837,black
 2838,white
 2839,white
-284,white
 2840,black
 2841,black
 2842,black
@@ -2056,7 +2849,6 @@ ImageID,label
 2847,white
 2848,black
 2849,white
-285,black
 2850,black
 2851,black
 2852,white
@@ -2067,7 +2859,6 @@ ImageID,label
 2857,white
 2858,black
 2859,white
-286,black
 2860,white
 2861,white
 2862,black
@@ -2078,7 +2869,6 @@ ImageID,label
 2867,black
 2868,white
 2869,white
-287,white
 2870,black
 2871,black
 2872,white
@@ -2089,7 +2879,6 @@ ImageID,label
 2877,black
 2878,white
 2879,white
-288,white
 2880,black
 2881,white
 2882,black
@@ -2100,7 +2889,6 @@ ImageID,label
 2887,white
 2888,white
 2889,white
-289,white
 2890,black
 2891,white
 2892,white
@@ -2111,8 +2899,6 @@ ImageID,label
 2897,white
 2898,black
 2899,black
-29,black
-290,white
 2900,black
 2901,black
 2902,white
@@ -2123,7 +2909,6 @@ ImageID,label
 2907,white
 2908,white
 2909,black
-291,white
 2910,black
 2911,black
 2912,black
@@ -2134,7 +2919,6 @@ ImageID,label
 2917,white
 2918,white
 2919,white
-292,white
 2920,white
 2921,white
 2922,black
@@ -2145,7 +2929,6 @@ ImageID,label
 2927,black
 2928,white
 2929,white
-293,white
 2930,white
 2931,black
 2932,black
@@ -2156,7 +2939,6 @@ ImageID,label
 2937,black
 2938,black
 2939,white
-294,white
 2940,white
 2941,black
 2942,white
@@ -2167,7 +2949,6 @@ ImageID,label
 2947,white
 2948,black
 2949,black
-295,black
 2950,white
 2951,white
 2952,white
@@ -2178,7 +2959,6 @@ ImageID,label
 2957,white
 2958,black
 2959,black
-296,white
 2960,black
 2961,black
 2962,black
@@ -2189,7 +2969,6 @@ ImageID,label
 2967,white
 2968,white
 2969,black
-297,white
 2970,white
 2971,white
 2972,white
@@ -2200,7 +2979,6 @@ ImageID,label
 2977,black
 2978,white
 2979,black
-298,black
 2980,black
 2981,black
 2982,white
@@ -2211,7 +2989,6 @@ ImageID,label
 2987,white
 2988,black
 2989,white
-299,white
 2990,black
 2991,white
 2992,white
@@ -2222,9 +2999,6 @@ ImageID,label
 2997,white
 2998,white
 2999,white
-3,white
-30,white
-300,white
 3000,white
 3001,black
 3002,black
@@ -2235,7 +3009,6 @@ ImageID,label
 3007,black
 3008,black
 3009,black
-301,black
 3010,white
 3011,white
 3012,black
@@ -2246,7 +3019,6 @@ ImageID,label
 3017,black
 3018,white
 3019,black
-302,black
 3020,white
 3021,black
 3022,black
@@ -2257,7 +3029,6 @@ ImageID,label
 3027,white
 3028,white
 3029,black
-303,black
 3030,black
 3031,white
 3032,white
@@ -2268,7 +3039,6 @@ ImageID,label
 3037,white
 3038,black
 3039,black
-304,white
 3040,white
 3041,white
 3042,white
@@ -2279,7 +3049,6 @@ ImageID,label
 3047,black
 3048,black
 3049,white
-305,white
 3050,white
 3051,black
 3052,black
@@ -2290,7 +3059,6 @@ ImageID,label
 3057,black
 3058,black
 3059,black
-306,black
 3060,white
 3061,white
 3062,black
@@ -2301,7 +3069,6 @@ ImageID,label
 3067,black
 3068,white
 3069,black
-307,white
 3070,white
 3071,black
 3072,white
@@ -2312,7 +3079,6 @@ ImageID,label
 3077,white
 3078,black
 3079,black
-308,white
 3080,black
 3081,white
 3082,black
@@ -2323,7 +3089,6 @@ ImageID,label
 3087,white
 3088,white
 3089,white
-309,black
 3090,white
 3091,black
 3092,black
@@ -2334,8 +3099,6 @@ ImageID,label
 3097,white
 3098,black
 3099,white
-31,white
-310,black
 3100,black
 3101,black
 3102,white
@@ -2346,7 +3109,6 @@ ImageID,label
 3107,black
 3108,black
 3109,white
-311,black
 3110,black
 3111,black
 3112,white
@@ -2357,7 +3119,6 @@ ImageID,label
 3117,black
 3118,black
 3119,white
-312,white
 3120,white
 3121,white
 3122,white
@@ -2368,7 +3129,6 @@ ImageID,label
 3127,white
 3128,black
 3129,black
-313,white
 3130,white
 3131,white
 3132,black
@@ -2379,7 +3139,6 @@ ImageID,label
 3137,white
 3138,black
 3139,white
-314,white
 3140,black
 3141,black
 3142,white
@@ -2390,7 +3149,6 @@ ImageID,label
 3147,white
 3148,black
 3149,black
-315,black
 3150,white
 3151,black
 3152,white
@@ -2401,7 +3159,6 @@ ImageID,label
 3157,black
 3158,black
 3159,white
-316,black
 3160,white
 3161,white
 3162,white
@@ -2412,7 +3169,6 @@ ImageID,label
 3167,white
 3168,white
 3169,white
-317,white
 3170,black
 3171,black
 3172,black
@@ -2423,7 +3179,6 @@ ImageID,label
 3177,black
 3178,white
 3179,white
-318,white
 3180,white
 3181,white
 3182,black
@@ -2434,7 +3189,6 @@ ImageID,label
 3187,black
 3188,black
 3189,white
-319,white
 3190,white
 3191,black
 3192,black
@@ -2445,8 +3199,6 @@ ImageID,label
 3197,white
 3198,black
 3199,white
-32,black
-320,black
 3200,white
 3201,black
 3202,white
@@ -2457,7 +3209,6 @@ ImageID,label
 3207,white
 3208,black
 3209,white
-321,white
 3210,white
 3211,white
 3212,white
@@ -2468,7 +3219,6 @@ ImageID,label
 3217,white
 3218,black
 3219,white
-322,white
 3220,white
 3221,black
 3222,white
@@ -2479,7 +3229,6 @@ ImageID,label
 3227,white
 3228,white
 3229,black
-323,white
 3230,black
 3231,white
 3232,white
@@ -2490,7 +3239,6 @@ ImageID,label
 3237,black
 3238,black
 3239,black
-324,white
 3240,white
 3241,white
 3242,black
@@ -2501,7 +3249,6 @@ ImageID,label
 3247,white
 3248,white
 3249,white
-325,white
 3250,black
 3251,black
 3252,black
@@ -2512,7 +3259,6 @@ ImageID,label
 3257,white
 3258,white
 3259,black
-326,white
 3260,white
 3261,white
 3262,black
@@ -2523,7 +3269,6 @@ ImageID,label
 3267,white
 3268,black
 3269,white
-327,black
 3270,black
 3271,white
 3272,white
@@ -2534,7 +3279,6 @@ ImageID,label
 3277,black
 3278,black
 3279,black
-328,black
 3280,white
 3281,white
 3282,black
@@ -2545,7 +3289,6 @@ ImageID,label
 3287,black
 3288,black
 3289,black
-329,black
 3290,black
 3291,black
 3292,black
@@ -2556,8 +3299,6 @@ ImageID,label
 3297,black
 3298,black
 3299,white
-33,black
-330,white
 3300,white
 3301,white
 3302,black
@@ -2568,7 +3309,6 @@ ImageID,label
 3307,white
 3308,white
 3309,black
-331,black
 3310,white
 3311,black
 3312,white
@@ -2579,7 +3319,6 @@ ImageID,label
 3317,white
 3318,white
 3319,black
-332,white
 3320,white
 3321,white
 3322,black
@@ -2590,7 +3329,6 @@ ImageID,label
 3327,white
 3328,black
 3329,black
-333,black
 3330,white
 3331,white
 3332,white
@@ -2601,7 +3339,6 @@ ImageID,label
 3337,white
 3338,white
 3339,white
-334,black
 3340,black
 3341,white
 3342,black
@@ -2612,7 +3349,6 @@ ImageID,label
 3347,black
 3348,white
 3349,black
-335,white
 3350,black
 3351,black
 3352,black
@@ -2623,7 +3359,6 @@ ImageID,label
 3357,black
 3358,black
 3359,black
-336,white
 3360,white
 3361,black
 3362,white
@@ -2634,7 +3369,6 @@ ImageID,label
 3367,white
 3368,black
 3369,black
-337,black
 3370,white
 3371,black
 3372,white
@@ -2645,7 +3379,6 @@ ImageID,label
 3377,white
 3378,black
 3379,white
-338,white
 3380,white
 3381,black
 3382,black
@@ -2656,7 +3389,6 @@ ImageID,label
 3387,black
 3388,black
 3389,black
-339,white
 3390,white
 3391,black
 3392,black
@@ -2667,8 +3399,6 @@ ImageID,label
 3397,white
 3398,white
 3399,white
-34,white
-340,black
 3400,white
 3401,white
 3402,white
@@ -2679,7 +3409,6 @@ ImageID,label
 3407,black
 3408,black
 3409,white
-341,white
 3410,white
 3411,white
 3412,black
@@ -2690,7 +3419,6 @@ ImageID,label
 3417,black
 3418,black
 3419,black
-342,black
 3420,black
 3421,black
 3422,white
@@ -2701,7 +3429,6 @@ ImageID,label
 3427,black
 3428,black
 3429,white
-343,black
 3430,white
 3431,white
 3432,white
@@ -2712,7 +3439,6 @@ ImageID,label
 3437,white
 3438,white
 3439,white
-344,white
 3440,black
 3441,white
 3442,white
@@ -2723,7 +3449,6 @@ ImageID,label
 3447,black
 3448,black
 3449,white
-345,white
 3450,white
 3451,white
 3452,white
@@ -2734,7 +3459,6 @@ ImageID,label
 3457,white
 3458,white
 3459,white
-346,black
 3460,white
 3461,black
 3462,black
@@ -2745,7 +3469,6 @@ ImageID,label
 3467,white
 3468,white
 3469,white
-347,black
 3470,black
 3471,white
 3472,white
@@ -2756,7 +3479,6 @@ ImageID,label
 3477,white
 3478,black
 3479,white
-348,black
 3480,white
 3481,white
 3482,white
@@ -2767,7 +3489,6 @@ ImageID,label
 3487,white
 3488,white
 3489,black
-349,black
 3490,white
 3491,white
 3492,white
@@ -2778,8 +3499,6 @@ ImageID,label
 3497,black
 3498,white
 3499,white
-35,white
-350,black
 3500,black
 3501,black
 3502,white
@@ -2790,7 +3509,6 @@ ImageID,label
 3507,black
 3508,black
 3509,white
-351,black
 3510,black
 3511,white
 3512,white
@@ -2801,7 +3519,6 @@ ImageID,label
 3517,black
 3518,black
 3519,black
-352,white
 3520,black
 3521,black
 3522,black
@@ -2812,7 +3529,6 @@ ImageID,label
 3527,black
 3528,white
 3529,white
-353,black
 3530,white
 3531,black
 3532,black
@@ -2823,7 +3539,6 @@ ImageID,label
 3537,black
 3538,black
 3539,white
-354,white
 3540,white
 3541,black
 3542,white
@@ -2834,7 +3549,6 @@ ImageID,label
 3547,black
 3548,black
 3549,black
-355,black
 3550,black
 3551,black
 3552,white
@@ -2845,7 +3559,6 @@ ImageID,label
 3557,white
 3558,black
 3559,white
-356,white
 3560,black
 3561,black
 3562,black
@@ -2856,7 +3569,6 @@ ImageID,label
 3567,black
 3568,black
 3569,black
-357,black
 3570,black
 3571,black
 3572,white
@@ -2867,7 +3579,6 @@ ImageID,label
 3577,white
 3578,black
 3579,black
-358,white
 3580,white
 3581,white
 3582,white
@@ -2878,7 +3589,6 @@ ImageID,label
 3587,black
 3588,white
 3589,white
-359,black
 3590,white
 3591,white
 3592,white
@@ -2889,8 +3599,6 @@ ImageID,label
 3597,white
 3598,black
 3599,black
-36,white
-360,white
 3600,white
 3601,white
 3602,black
@@ -2901,7 +3609,6 @@ ImageID,label
 3607,black
 3608,white
 3609,black
-361,black
 3610,white
 3611,black
 3612,black
@@ -2912,7 +3619,6 @@ ImageID,label
 3617,white
 3618,black
 3619,black
-362,white
 3620,white
 3621,white
 3622,black
@@ -2923,7 +3629,6 @@ ImageID,label
 3627,black
 3628,white
 3629,black
-363,white
 3630,white
 3631,white
 3632,white
@@ -2934,7 +3639,6 @@ ImageID,label
 3637,black
 3638,white
 3639,white
-364,black
 3640,white
 3641,white
 3642,white
@@ -2945,7 +3649,6 @@ ImageID,label
 3647,white
 3648,black
 3649,black
-365,black
 3650,black
 3651,black
 3652,black
@@ -2956,7 +3659,6 @@ ImageID,label
 3657,white
 3658,white
 3659,black
-366,white
 3660,white
 3661,black
 3662,black
@@ -2967,7 +3669,6 @@ ImageID,label
 3667,black
 3668,white
 3669,black
-367,white
 3670,black
 3671,white
 3672,white
@@ -2978,7 +3679,6 @@ ImageID,label
 3677,white
 3678,black
 3679,white
-368,white
 3680,white
 3681,black
 3682,black
@@ -2989,7 +3689,6 @@ ImageID,label
 3687,white
 3688,white
 3689,black
-369,black
 3690,white
 3691,white
 3692,white
@@ -3000,8 +3699,6 @@ ImageID,label
 3697,black
 3698,black
 3699,black
-37,black
-370,black
 3700,white
 3701,black
 3702,black
@@ -3012,7 +3709,6 @@ ImageID,label
 3707,white
 3708,white
 3709,white
-371,white
 3710,black
 3711,white
 3712,white
@@ -3023,7 +3719,6 @@ ImageID,label
 3717,black
 3718,black
 3719,black
-372,white
 3720,black
 3721,black
 3722,white
@@ -3034,7 +3729,6 @@ ImageID,label
 3727,white
 3728,white
 3729,white
-373,white
 3730,white
 3731,white
 3732,white
@@ -3045,7 +3739,6 @@ ImageID,label
 3737,white
 3738,black
 3739,white
-374,black
 3740,black
 3741,black
 3742,white
@@ -3056,7 +3749,6 @@ ImageID,label
 3747,black
 3748,white
 3749,white
-375,black
 3750,white
 3751,black
 3752,white
@@ -3067,7 +3759,6 @@ ImageID,label
 3757,black
 3758,black
 3759,white
-376,white
 3760,white
 3761,white
 3762,white
@@ -3078,7 +3769,6 @@ ImageID,label
 3767,white
 3768,white
 3769,black
-377,white
 3770,white
 3771,white
 3772,black
@@ -3089,7 +3779,6 @@ ImageID,label
 3777,white
 3778,white
 3779,white
-378,white
 3780,black
 3781,black
 3782,white
@@ -3100,7 +3789,6 @@ ImageID,label
 3787,black
 3788,white
 3789,black
-379,white
 3790,black
 3791,black
 3792,white
@@ -3111,8 +3799,6 @@ ImageID,label
 3797,black
 3798,white
 3799,black
-38,black
-380,black
 3800,white
 3801,white
 3802,black
@@ -3123,7 +3809,6 @@ ImageID,label
 3807,white
 3808,black
 3809,black
-381,white
 3810,white
 3811,white
 3812,white
@@ -3134,7 +3819,6 @@ ImageID,label
 3817,white
 3818,white
 3819,black
-382,black
 3820,black
 3821,black
 3822,white
@@ -3145,7 +3829,6 @@ ImageID,label
 3827,white
 3828,black
 3829,black
-383,white
 3830,black
 3831,white
 3832,white
@@ -3156,7 +3839,6 @@ ImageID,label
 3837,black
 3838,white
 3839,black
-384,white
 3840,black
 3841,black
 3842,white
@@ -3167,7 +3849,6 @@ ImageID,label
 3847,black
 3848,white
 3849,black
-385,white
 3850,white
 3851,black
 3852,white
@@ -3178,7 +3859,6 @@ ImageID,label
 3857,black
 3858,white
 3859,white
-386,black
 3860,black
 3861,white
 3862,black
@@ -3189,7 +3869,6 @@ ImageID,label
 3867,black
 3868,white
 3869,white
-387,white
 3870,black
 3871,white
 3872,white
@@ -3200,7 +3879,6 @@ ImageID,label
 3877,black
 3878,black
 3879,white
-388,white
 3880,black
 3881,black
 3882,black
@@ -3211,7 +3889,6 @@ ImageID,label
 3887,black
 3888,white
 3889,white
-389,white
 3890,black
 3891,white
 3892,white
@@ -3222,8 +3899,6 @@ ImageID,label
 3897,white
 3898,black
 3899,white
-39,black
-390,black
 3900,black
 3901,white
 3902,white
@@ -3234,7 +3909,6 @@ ImageID,label
 3907,white
 3908,white
 3909,black
-391,white
 3910,black
 3911,black
 3912,black
@@ -3245,7 +3919,6 @@ ImageID,label
 3917,white
 3918,white
 3919,white
-392,white
 3920,white
 3921,black
 3922,white
@@ -3256,7 +3929,6 @@ ImageID,label
 3927,white
 3928,white
 3929,white
-393,black
 3930,white
 3931,white
 3932,white
@@ -3267,7 +3939,6 @@ ImageID,label
 3937,white
 3938,white
 3939,black
-394,white
 3940,black
 3941,white
 3942,white
@@ -3278,7 +3949,6 @@ ImageID,label
 3947,white
 3948,black
 3949,black
-395,white
 3950,black
 3951,black
 3952,black
@@ -3289,7 +3959,6 @@ ImageID,label
 3957,white
 3958,white
 3959,black
-396,white
 3960,white
 3961,black
 3962,black
@@ -3300,7 +3969,6 @@ ImageID,label
 3967,black
 3968,black
 3969,black
-397,white
 3970,white
 3971,black
 3972,black
@@ -3311,7 +3979,6 @@ ImageID,label
 3977,white
 3978,white
 3979,black
-398,black
 3980,black
 3981,white
 3982,black
@@ -3322,7 +3989,6 @@ ImageID,label
 3987,black
 3988,white
 3989,white
-399,white
 3990,black
 3991,black
 3992,black
@@ -3333,9 +3999,6 @@ ImageID,label
 3997,white
 3998,black
 3999,white
-4,white
-40,black
-400,black
 4000,white
 4001,white
 4002,black
@@ -3346,7 +4009,6 @@ ImageID,label
 4007,black
 4008,black
 4009,white
-401,black
 4010,black
 4011,white
 4012,black
@@ -3357,7 +4019,6 @@ ImageID,label
 4017,black
 4018,black
 4019,black
-402,white
 4020,white
 4021,black
 4022,white
@@ -3368,7 +4029,6 @@ ImageID,label
 4027,white
 4028,white
 4029,white
-403,black
 4030,black
 4031,white
 4032,white
@@ -3379,7 +4039,6 @@ ImageID,label
 4037,black
 4038,black
 4039,black
-404,black
 4040,black
 4041,black
 4042,white
@@ -3390,7 +4049,6 @@ ImageID,label
 4047,black
 4048,white
 4049,black
-405,white
 4050,black
 4051,black
 4052,black
@@ -3401,7 +4059,6 @@ ImageID,label
 4057,white
 4058,black
 4059,black
-406,white
 4060,black
 4061,white
 4062,black
@@ -3412,7 +4069,6 @@ ImageID,label
 4067,white
 4068,black
 4069,white
-407,black
 4070,black
 4071,black
 4072,white
@@ -3423,7 +4079,6 @@ ImageID,label
 4077,black
 4078,black
 4079,black
-408,black
 4080,white
 4081,black
 4082,white
@@ -3434,7 +4089,6 @@ ImageID,label
 4087,white
 4088,white
 4089,black
-409,white
 4090,white
 4091,white
 4092,white
@@ -3445,8 +4099,6 @@ ImageID,label
 4097,white
 4098,black
 4099,black
-41,black
-410,white
 4100,black
 4101,black
 4102,white
@@ -3457,7 +4109,6 @@ ImageID,label
 4107,black
 4108,white
 4109,white
-411,black
 4110,black
 4111,black
 4112,black
@@ -3468,7 +4119,6 @@ ImageID,label
 4117,black
 4118,black
 4119,white
-412,white
 4120,white
 4121,black
 4122,black
@@ -3479,7 +4129,6 @@ ImageID,label
 4127,black
 4128,white
 4129,black
-413,black
 4130,black
 4131,white
 4132,white
@@ -3490,7 +4139,6 @@ ImageID,label
 4137,black
 4138,white
 4139,black
-414,black
 4140,black
 4141,white
 4142,white
@@ -3501,7 +4149,6 @@ ImageID,label
 4147,white
 4148,white
 4149,white
-415,white
 4150,black
 4151,white
 4152,black
@@ -3512,7 +4159,6 @@ ImageID,label
 4157,black
 4158,black
 4159,white
-416,white
 4160,black
 4161,white
 4162,black
@@ -3523,7 +4169,6 @@ ImageID,label
 4167,black
 4168,black
 4169,white
-417,white
 4170,black
 4171,black
 4172,black
@@ -3534,7 +4179,6 @@ ImageID,label
 4177,black
 4178,white
 4179,black
-418,black
 4180,black
 4181,white
 4182,white
@@ -3545,7 +4189,6 @@ ImageID,label
 4187,black
 4188,black
 4189,black
-419,white
 4190,white
 4191,black
 4192,white
@@ -3556,8 +4199,6 @@ ImageID,label
 4197,white
 4198,black
 4199,white
-42,black
-420,white
 4200,black
 4201,black
 4202,white
@@ -3568,7 +4209,6 @@ ImageID,label
 4207,black
 4208,black
 4209,white
-421,white
 4210,black
 4211,white
 4212,white
@@ -3579,7 +4219,6 @@ ImageID,label
 4217,black
 4218,white
 4219,white
-422,black
 4220,black
 4221,white
 4222,white
@@ -3590,7 +4229,6 @@ ImageID,label
 4227,white
 4228,white
 4229,white
-423,black
 4230,black
 4231,white
 4232,white
@@ -3601,7 +4239,6 @@ ImageID,label
 4237,white
 4238,black
 4239,white
-424,white
 4240,white
 4241,black
 4242,black
@@ -3612,7 +4249,6 @@ ImageID,label
 4247,white
 4248,black
 4249,white
-425,black
 4250,white
 4251,white
 4252,white
@@ -3623,7 +4259,6 @@ ImageID,label
 4257,white
 4258,white
 4259,white
-426,black
 4260,black
 4261,white
 4262,white
@@ -3634,7 +4269,6 @@ ImageID,label
 4267,black
 4268,white
 4269,white
-427,white
 4270,black
 4271,black
 4272,white
@@ -3645,7 +4279,6 @@ ImageID,label
 4277,white
 4278,white
 4279,white
-428,black
 4280,white
 4281,white
 4282,white
@@ -3656,7 +4289,6 @@ ImageID,label
 4287,white
 4288,black
 4289,black
-429,black
 4290,white
 4291,black
 4292,black
@@ -3667,8 +4299,6 @@ ImageID,label
 4297,white
 4298,white
 4299,black
-43,black
-430,black
 4300,black
 4301,black
 4302,black
@@ -3679,7 +4309,6 @@ ImageID,label
 4307,white
 4308,black
 4309,black
-431,white
 4310,black
 4311,white
 4312,black
@@ -3690,7 +4319,6 @@ ImageID,label
 4317,black
 4318,black
 4319,black
-432,black
 4320,white
 4321,white
 4322,black
@@ -3701,7 +4329,6 @@ ImageID,label
 4327,white
 4328,black
 4329,black
-433,black
 4330,black
 4331,black
 4332,black
@@ -3712,7 +4339,6 @@ ImageID,label
 4337,white
 4338,white
 4339,white
-434,black
 4340,black
 4341,black
 4342,white
@@ -3723,7 +4349,6 @@ ImageID,label
 4347,black
 4348,white
 4349,white
-435,white
 4350,white
 4351,black
 4352,white
@@ -3734,7 +4359,6 @@ ImageID,label
 4357,black
 4358,black
 4359,white
-436,black
 4360,white
 4361,black
 4362,black
@@ -3745,7 +4369,6 @@ ImageID,label
 4367,white
 4368,white
 4369,black
-437,black
 4370,white
 4371,black
 4372,white
@@ -3756,7 +4379,6 @@ ImageID,label
 4377,white
 4378,white
 4379,white
-438,black
 4380,black
 4381,white
 4382,white
@@ -3767,7 +4389,6 @@ ImageID,label
 4387,black
 4388,white
 4389,black
-439,black
 4390,white
 4391,white
 4392,white
@@ -3778,8 +4399,6 @@ ImageID,label
 4397,white
 4398,black
 4399,black
-44,black
-440,black
 4400,black
 4401,white
 4402,white
@@ -3790,7 +4409,6 @@ ImageID,label
 4407,white
 4408,black
 4409,black
-441,white
 4410,white
 4411,black
 4412,black
@@ -3801,7 +4419,6 @@ ImageID,label
 4417,white
 4418,white
 4419,white
-442,white
 4420,white
 4421,black
 4422,white
@@ -3812,7 +4429,6 @@ ImageID,label
 4427,white
 4428,white
 4429,black
-443,white
 4430,black
 4431,white
 4432,white
@@ -3823,7 +4439,6 @@ ImageID,label
 4437,black
 4438,black
 4439,black
-444,black
 4440,white
 4441,black
 4442,white
@@ -3834,7 +4449,6 @@ ImageID,label
 4447,white
 4448,black
 4449,black
-445,black
 4450,white
 4451,white
 4452,black
@@ -3845,7 +4459,6 @@ ImageID,label
 4457,black
 4458,white
 4459,black
-446,black
 4460,black
 4461,white
 4462,black
@@ -3856,7 +4469,6 @@ ImageID,label
 4467,black
 4468,black
 4469,white
-447,black
 4470,black
 4471,white
 4472,black
@@ -3867,7 +4479,6 @@ ImageID,label
 4477,black
 4478,white
 4479,black
-448,black
 4480,white
 4481,white
 4482,white
@@ -3878,7 +4489,6 @@ ImageID,label
 4487,black
 4488,white
 4489,white
-449,white
 4490,white
 4491,white
 4492,black
@@ -3889,8 +4499,6 @@ ImageID,label
 4497,white
 4498,white
 4499,black
-45,white
-450,white
 4500,black
 4501,white
 4502,white
@@ -3901,7 +4509,6 @@ ImageID,label
 4507,white
 4508,black
 4509,white
-451,black
 4510,white
 4511,white
 4512,black
@@ -3912,7 +4519,6 @@ ImageID,label
 4517,black
 4518,black
 4519,black
-452,black
 4520,white
 4521,white
 4522,black
@@ -3923,7 +4529,6 @@ ImageID,label
 4527,black
 4528,black
 4529,white
-453,white
 4530,white
 4531,black
 4532,black
@@ -3934,7 +4539,6 @@ ImageID,label
 4537,white
 4538,black
 4539,black
-454,white
 4540,white
 4541,white
 4542,black
@@ -3945,7 +4549,6 @@ ImageID,label
 4547,black
 4548,white
 4549,black
-455,white
 4550,white
 4551,white
 4552,black
@@ -3956,7 +4559,6 @@ ImageID,label
 4557,black
 4558,black
 4559,black
-456,white
 4560,black
 4561,black
 4562,black
@@ -3967,7 +4569,6 @@ ImageID,label
 4567,black
 4568,black
 4569,black
-457,white
 4570,white
 4571,black
 4572,black
@@ -3978,7 +4579,6 @@ ImageID,label
 4577,white
 4578,white
 4579,black
-458,black
 4580,black
 4581,white
 4582,black
@@ -3989,7 +4589,6 @@ ImageID,label
 4587,white
 4588,white
 4589,white
-459,white
 4590,white
 4591,black
 4592,white
@@ -4000,8 +4599,6 @@ ImageID,label
 4597,white
 4598,white
 4599,white
-46,black
-460,black
 4600,black
 4601,black
 4602,black
@@ -4012,7 +4609,6 @@ ImageID,label
 4607,white
 4608,black
 4609,white
-461,black
 4610,black
 4611,black
 4612,black
@@ -4023,7 +4619,6 @@ ImageID,label
 4617,black
 4618,black
 4619,white
-462,white
 4620,black
 4621,white
 4622,white
@@ -4034,7 +4629,6 @@ ImageID,label
 4627,white
 4628,white
 4629,black
-463,white
 4630,white
 4631,black
 4632,black
@@ -4045,7 +4639,6 @@ ImageID,label
 4637,white
 4638,white
 4639,white
-464,black
 4640,black
 4641,white
 4642,black
@@ -4056,7 +4649,6 @@ ImageID,label
 4647,white
 4648,black
 4649,white
-465,black
 4650,black
 4651,white
 4652,black
@@ -4067,7 +4659,6 @@ ImageID,label
 4657,black
 4658,black
 4659,white
-466,black
 4660,white
 4661,white
 4662,white
@@ -4078,7 +4669,6 @@ ImageID,label
 4667,white
 4668,white
 4669,black
-467,white
 4670,black
 4671,black
 4672,white
@@ -4089,7 +4679,6 @@ ImageID,label
 4677,white
 4678,white
 4679,black
-468,white
 4680,white
 4681,white
 4682,white
@@ -4100,7 +4689,6 @@ ImageID,label
 4687,white
 4688,white
 4689,white
-469,white
 4690,white
 4691,black
 4692,white
@@ -4111,8 +4699,6 @@ ImageID,label
 4697,white
 4698,white
 4699,white
-47,black
-470,white
 4700,black
 4701,black
 4702,black
@@ -4123,7 +4709,6 @@ ImageID,label
 4707,white
 4708,white
 4709,black
-471,white
 4710,black
 4711,white
 4712,black
@@ -4134,7 +4719,6 @@ ImageID,label
 4717,black
 4718,black
 4719,black
-472,white
 4720,black
 4721,black
 4722,black
@@ -4145,7 +4729,6 @@ ImageID,label
 4727,black
 4728,white
 4729,black
-473,black
 4730,black
 4731,black
 4732,black
@@ -4156,7 +4739,6 @@ ImageID,label
 4737,black
 4738,white
 4739,white
-474,black
 4740,black
 4741,black
 4742,white
@@ -4167,7 +4749,6 @@ ImageID,label
 4747,white
 4748,white
 4749,black
-475,white
 4750,black
 4751,white
 4752,white
@@ -4178,7 +4759,6 @@ ImageID,label
 4757,black
 4758,white
 4759,black
-476,white
 4760,white
 4761,black
 4762,black
@@ -4189,7 +4769,6 @@ ImageID,label
 4767,white
 4768,white
 4769,black
-477,black
 4770,black
 4771,white
 4772,white
@@ -4200,7 +4779,6 @@ ImageID,label
 4777,black
 4778,black
 4779,black
-478,white
 4780,white
 4781,white
 4782,white
@@ -4211,7 +4789,6 @@ ImageID,label
 4787,black
 4788,black
 4789,white
-479,black
 4790,white
 4791,black
 4792,white
@@ -4222,8 +4799,6 @@ ImageID,label
 4797,black
 4798,black
 4799,white
-48,black
-480,white
 4800,white
 4801,black
 4802,white
@@ -4234,7 +4809,6 @@ ImageID,label
 4807,black
 4808,white
 4809,black
-481,black
 4810,black
 4811,black
 4812,black
@@ -4245,7 +4819,6 @@ ImageID,label
 4817,white
 4818,black
 4819,white
-482,white
 4820,black
 4821,black
 4822,white
@@ -4256,7 +4829,6 @@ ImageID,label
 4827,white
 4828,black
 4829,black
-483,white
 4830,white
 4831,black
 4832,white
@@ -4267,7 +4839,6 @@ ImageID,label
 4837,white
 4838,white
 4839,white
-484,white
 4840,black
 4841,white
 4842,white
@@ -4278,7 +4849,6 @@ ImageID,label
 4847,black
 4848,black
 4849,white
-485,black
 4850,black
 4851,white
 4852,black
@@ -4289,7 +4859,6 @@ ImageID,label
 4857,black
 4858,white
 4859,white
-486,black
 4860,black
 4861,white
 4862,black
@@ -4300,7 +4869,6 @@ ImageID,label
 4867,white
 4868,black
 4869,black
-487,black
 4870,black
 4871,white
 4872,black
@@ -4311,7 +4879,6 @@ ImageID,label
 4877,white
 4878,white
 4879,white
-488,white
 4880,black
 4881,black
 4882,black
@@ -4322,7 +4889,6 @@ ImageID,label
 4887,white
 4888,white
 4889,white
-489,black
 4890,white
 4891,white
 4892,black
@@ -4333,8 +4899,6 @@ ImageID,label
 4897,black
 4898,white
 4899,black
-49,black
-490,white
 4900,black
 4901,white
 4902,black
@@ -4345,7 +4909,6 @@ ImageID,label
 4907,white
 4908,black
 4909,white
-491,black
 4910,white
 4911,black
 4912,white
@@ -4356,7 +4919,6 @@ ImageID,label
 4917,white
 4918,black
 4919,black
-492,black
 4920,black
 4921,white
 4922,black
@@ -4367,7 +4929,6 @@ ImageID,label
 4927,black
 4928,white
 4929,white
-493,black
 4930,white
 4931,black
 4932,black
@@ -4378,7 +4939,6 @@ ImageID,label
 4937,black
 4938,black
 4939,white
-494,black
 4940,black
 4941,black
 4942,white
@@ -4389,7 +4949,6 @@ ImageID,label
 4947,black
 4948,white
 4949,white
-495,black
 4950,white
 4951,black
 4952,black
@@ -4400,7 +4959,6 @@ ImageID,label
 4957,white
 4958,white
 4959,white
-496,white
 4960,black
 4961,white
 4962,black
@@ -4411,7 +4969,6 @@ ImageID,label
 4967,white
 4968,black
 4969,black
-497,black
 4970,black
 4971,black
 4972,black
@@ -4422,7 +4979,6 @@ ImageID,label
 4977,white
 4978,white
 4979,black
-498,white
 4980,black
 4981,white
 4982,black
@@ -4433,7 +4989,6 @@ ImageID,label
 4987,black
 4988,black
 4989,white
-499,white
 4990,black
 4991,white
 4992,black
@@ -4444,9 +4999,6 @@ ImageID,label
 4997,black
 4998,white
 4999,black
-5,white
-50,black
-500,white
 5000,black
 5001,black
 5002,white
@@ -4457,7 +5009,6 @@ ImageID,label
 5007,black
 5008,white
 5009,black
-501,black
 5010,black
 5011,white
 5012,black
@@ -4468,7 +5019,6 @@ ImageID,label
 5017,white
 5018,black
 5019,white
-502,white
 5020,black
 5021,white
 5022,black
@@ -4479,7 +5029,6 @@ ImageID,label
 5027,white
 5028,white
 5029,black
-503,black
 5030,white
 5031,white
 5032,white
@@ -4490,7 +5039,6 @@ ImageID,label
 5037,white
 5038,black
 5039,black
-504,black
 5040,white
 5041,black
 5042,black
@@ -4501,7 +5049,6 @@ ImageID,label
 5047,white
 5048,black
 5049,black
-505,white
 5050,white
 5051,black
 5052,white
@@ -4512,7 +5059,6 @@ ImageID,label
 5057,white
 5058,white
 5059,white
-506,black
 5060,black
 5061,black
 5062,black
@@ -4523,7 +5069,6 @@ ImageID,label
 5067,black
 5068,black
 5069,white
-507,black
 5070,black
 5071,white
 5072,white
@@ -4534,7 +5079,6 @@ ImageID,label
 5077,white
 5078,white
 5079,black
-508,white
 5080,black
 5081,white
 5082,white
@@ -4545,7 +5089,6 @@ ImageID,label
 5087,black
 5088,white
 5089,black
-509,black
 5090,black
 5091,white
 5092,white
@@ -4556,8 +5099,6 @@ ImageID,label
 5097,black
 5098,white
 5099,black
-51,white
-510,white
 5100,white
 5101,black
 5102,white
@@ -4568,7 +5109,6 @@ ImageID,label
 5107,black
 5108,white
 5109,white
-511,white
 5110,white
 5111,black
 5112,white
@@ -4579,7 +5119,6 @@ ImageID,label
 5117,black
 5118,white
 5119,black
-512,black
 5120,white
 5121,white
 5122,white
@@ -4590,7 +5129,6 @@ ImageID,label
 5127,black
 5128,white
 5129,white
-513,white
 5130,black
 5131,white
 5132,black
@@ -4601,7 +5139,6 @@ ImageID,label
 5137,white
 5138,white
 5139,black
-514,white
 5140,white
 5141,white
 5142,black
@@ -4612,7 +5149,6 @@ ImageID,label
 5147,black
 5148,black
 5149,white
-515,black
 5150,black
 5151,white
 5152,black
@@ -4623,7 +5159,6 @@ ImageID,label
 5157,black
 5158,black
 5159,black
-516,white
 5160,black
 5161,black
 5162,white
@@ -4634,7 +5169,6 @@ ImageID,label
 5167,white
 5168,black
 5169,black
-517,black
 5170,black
 5171,white
 5172,black
@@ -4645,7 +5179,6 @@ ImageID,label
 5177,black
 5178,white
 5179,white
-518,white
 5180,white
 5181,black
 5182,black
@@ -4656,7 +5189,6 @@ ImageID,label
 5187,white
 5188,black
 5189,black
-519,white
 5190,white
 5191,black
 5192,black
@@ -4667,8 +5199,6 @@ ImageID,label
 5197,white
 5198,black
 5199,black
-52,white
-520,black
 5200,white
 5201,black
 5202,black
@@ -4679,7 +5209,6 @@ ImageID,label
 5207,black
 5208,black
 5209,white
-521,black
 5210,white
 5211,black
 5212,white
@@ -4690,7 +5219,6 @@ ImageID,label
 5217,white
 5218,white
 5219,white
-522,white
 5220,black
 5221,black
 5222,white
@@ -4701,7 +5229,6 @@ ImageID,label
 5227,black
 5228,black
 5229,white
-523,black
 5230,white
 5231,white
 5232,white
@@ -4712,7 +5239,6 @@ ImageID,label
 5237,black
 5238,white
 5239,black
-524,white
 5240,white
 5241,black
 5242,black
@@ -4723,7 +5249,6 @@ ImageID,label
 5247,black
 5248,white
 5249,black
-525,white
 5250,white
 5251,white
 5252,white
@@ -4734,7 +5259,6 @@ ImageID,label
 5257,white
 5258,white
 5259,black
-526,black
 5260,black
 5261,black
 5262,black
@@ -4745,7 +5269,6 @@ ImageID,label
 5267,white
 5268,black
 5269,white
-527,black
 5270,white
 5271,white
 5272,white
@@ -4756,7 +5279,6 @@ ImageID,label
 5277,black
 5278,white
 5279,white
-528,black
 5280,white
 5281,white
 5282,black
@@ -4767,7 +5289,6 @@ ImageID,label
 5287,white
 5288,white
 5289,black
-529,white
 5290,white
 5291,white
 5292,black
@@ -4778,8 +5299,6 @@ ImageID,label
 5297,black
 5298,white
 5299,white
-53,black
-530,black
 5300,black
 5301,black
 5302,white
@@ -4790,7 +5309,6 @@ ImageID,label
 5307,black
 5308,black
 5309,black
-531,white
 5310,white
 5311,black
 5312,white
@@ -4801,7 +5319,6 @@ ImageID,label
 5317,black
 5318,white
 5319,white
-532,black
 5320,white
 5321,white
 5322,black
@@ -4812,7 +5329,6 @@ ImageID,label
 5327,black
 5328,black
 5329,white
-533,black
 5330,black
 5331,white
 5332,white
@@ -4823,7 +5339,6 @@ ImageID,label
 5337,black
 5338,black
 5339,black
-534,white
 5340,white
 5341,white
 5342,black
@@ -4834,7 +5349,6 @@ ImageID,label
 5347,black
 5348,white
 5349,black
-535,black
 5350,white
 5351,white
 5352,white
@@ -4845,7 +5359,6 @@ ImageID,label
 5357,white
 5358,white
 5359,white
-536,black
 5360,black
 5361,white
 5362,white
@@ -4856,7 +5369,6 @@ ImageID,label
 5367,black
 5368,white
 5369,black
-537,white
 5370,black
 5371,white
 5372,white
@@ -4867,7 +5379,6 @@ ImageID,label
 5377,black
 5378,white
 5379,white
-538,white
 5380,black
 5381,white
 5382,white
@@ -4878,7 +5389,6 @@ ImageID,label
 5387,white
 5388,black
 5389,white
-539,white
 5390,black
 5391,white
 5392,white
@@ -4889,8 +5399,6 @@ ImageID,label
 5397,black
 5398,white
 5399,white
-54,white
-540,white
 5400,white
 5401,white
 5402,black
@@ -4901,7 +5409,6 @@ ImageID,label
 5407,white
 5408,black
 5409,black
-541,white
 5410,black
 5411,black
 5412,white
@@ -4912,7 +5419,6 @@ ImageID,label
 5417,white
 5418,black
 5419,white
-542,white
 5420,white
 5421,white
 5422,black
@@ -4923,7 +5429,6 @@ ImageID,label
 5427,white
 5428,black
 5429,black
-543,white
 5430,black
 5431,black
 5432,white
@@ -4934,7 +5439,6 @@ ImageID,label
 5437,white
 5438,white
 5439,black
-544,white
 5440,white
 5441,black
 5442,black
@@ -4945,7 +5449,6 @@ ImageID,label
 5447,white
 5448,black
 5449,white
-545,black
 5450,black
 5451,white
 5452,black
@@ -4956,7 +5459,6 @@ ImageID,label
 5457,white
 5458,white
 5459,black
-546,black
 5460,white
 5461,black
 5462,white
@@ -4967,7 +5469,6 @@ ImageID,label
 5467,white
 5468,black
 5469,white
-547,black
 5470,black
 5471,white
 5472,black
@@ -4978,7 +5479,6 @@ ImageID,label
 5477,black
 5478,white
 5479,black
-548,black
 5480,black
 5481,white
 5482,black
@@ -4989,7 +5489,6 @@ ImageID,label
 5487,white
 5488,white
 5489,black
-549,white
 5490,black
 5491,white
 5492,black
@@ -5000,8 +5499,6 @@ ImageID,label
 5497,black
 5498,black
 5499,black
-55,black
-550,black
 5500,white
 5501,black
 5502,black
@@ -5012,7 +5509,6 @@ ImageID,label
 5507,white
 5508,black
 5509,white
-551,black
 5510,white
 5511,white
 5512,black
@@ -5023,7 +5519,6 @@ ImageID,label
 5517,white
 5518,white
 5519,white
-552,white
 5520,white
 5521,white
 5522,black
@@ -5034,7 +5529,6 @@ ImageID,label
 5527,black
 5528,black
 5529,white
-553,white
 5530,white
 5531,white
 5532,black
@@ -5045,7 +5539,6 @@ ImageID,label
 5537,white
 5538,black
 5539,white
-554,black
 5540,white
 5541,black
 5542,white
@@ -5056,7 +5549,6 @@ ImageID,label
 5547,white
 5548,white
 5549,black
-555,black
 5550,black
 5551,black
 5552,black
@@ -5067,7 +5559,6 @@ ImageID,label
 5557,white
 5558,white
 5559,black
-556,black
 5560,white
 5561,black
 5562,white
@@ -5078,7 +5569,6 @@ ImageID,label
 5567,white
 5568,black
 5569,black
-557,black
 5570,white
 5571,white
 5572,white
@@ -5089,7 +5579,6 @@ ImageID,label
 5577,white
 5578,white
 5579,black
-558,white
 5580,black
 5581,white
 5582,black
@@ -5100,7 +5589,6 @@ ImageID,label
 5587,white
 5588,white
 5589,white
-559,white
 5590,white
 5591,black
 5592,white
@@ -5111,8 +5599,6 @@ ImageID,label
 5597,black
 5598,black
 5599,white
-56,black
-560,white
 5600,black
 5601,white
 5602,white
@@ -5123,7 +5609,6 @@ ImageID,label
 5607,black
 5608,white
 5609,white
-561,black
 5610,white
 5611,white
 5612,white
@@ -5134,7 +5619,6 @@ ImageID,label
 5617,black
 5618,white
 5619,white
-562,white
 5620,black
 5621,black
 5622,white
@@ -5145,7 +5629,6 @@ ImageID,label
 5627,white
 5628,white
 5629,white
-563,black
 5630,black
 5631,white
 5632,black
@@ -5156,7 +5639,6 @@ ImageID,label
 5637,white
 5638,white
 5639,black
-564,white
 5640,white
 5641,black
 5642,white
@@ -5167,7 +5649,6 @@ ImageID,label
 5647,white
 5648,white
 5649,white
-565,black
 5650,black
 5651,white
 5652,white
@@ -5178,7 +5659,6 @@ ImageID,label
 5657,white
 5658,black
 5659,white
-566,white
 5660,white
 5661,white
 5662,black
@@ -5189,7 +5669,6 @@ ImageID,label
 5667,black
 5668,black
 5669,black
-567,black
 5670,white
 5671,white
 5672,white
@@ -5200,7 +5679,6 @@ ImageID,label
 5677,white
 5678,black
 5679,white
-568,white
 5680,black
 5681,white
 5682,white
@@ -5211,7 +5689,6 @@ ImageID,label
 5687,black
 5688,white
 5689,white
-569,black
 5690,white
 5691,white
 5692,black
@@ -5222,8 +5699,6 @@ ImageID,label
 5697,black
 5698,white
 5699,white
-57,white
-570,white
 5700,white
 5701,black
 5702,white
@@ -5234,7 +5709,6 @@ ImageID,label
 5707,black
 5708,white
 5709,white
-571,white
 5710,black
 5711,black
 5712,black
@@ -5245,7 +5719,6 @@ ImageID,label
 5717,black
 5718,white
 5719,white
-572,white
 5720,white
 5721,black
 5722,black
@@ -5256,7 +5729,6 @@ ImageID,label
 5727,white
 5728,white
 5729,black
-573,black
 5730,white
 5731,white
 5732,white
@@ -5267,7 +5739,6 @@ ImageID,label
 5737,black
 5738,black
 5739,white
-574,white
 5740,black
 5741,black
 5742,white
@@ -5278,7 +5749,6 @@ ImageID,label
 5747,black
 5748,black
 5749,black
-575,black
 5750,black
 5751,white
 5752,black
@@ -5289,7 +5759,6 @@ ImageID,label
 5757,black
 5758,white
 5759,white
-576,black
 5760,white
 5761,black
 5762,white
@@ -5300,7 +5769,6 @@ ImageID,label
 5767,white
 5768,white
 5769,white
-577,white
 5770,black
 5771,white
 5772,white
@@ -5311,7 +5779,6 @@ ImageID,label
 5777,black
 5778,white
 5779,white
-578,black
 5780,black
 5781,black
 5782,white
@@ -5322,7 +5789,6 @@ ImageID,label
 5787,black
 5788,white
 5789,white
-579,white
 5790,black
 5791,white
 5792,white
@@ -5333,8 +5799,6 @@ ImageID,label
 5797,white
 5798,white
 5799,black
-58,black
-580,black
 5800,white
 5801,black
 5802,white
@@ -5345,7 +5809,6 @@ ImageID,label
 5807,black
 5808,white
 5809,black
-581,white
 5810,white
 5811,black
 5812,black
@@ -5356,7 +5819,6 @@ ImageID,label
 5817,white
 5818,white
 5819,black
-582,white
 5820,black
 5821,black
 5822,black
@@ -5367,7 +5829,6 @@ ImageID,label
 5827,white
 5828,black
 5829,white
-583,black
 5830,black
 5831,white
 5832,white
@@ -5378,7 +5839,6 @@ ImageID,label
 5837,white
 5838,black
 5839,white
-584,black
 5840,black
 5841,black
 5842,white
@@ -5389,7 +5849,6 @@ ImageID,label
 5847,white
 5848,white
 5849,black
-585,white
 5850,black
 5851,white
 5852,black
@@ -5400,7 +5859,6 @@ ImageID,label
 5857,black
 5858,white
 5859,white
-586,black
 5860,black
 5861,black
 5862,black
@@ -5411,7 +5869,6 @@ ImageID,label
 5867,white
 5868,black
 5869,black
-587,white
 5870,white
 5871,white
 5872,white
@@ -5422,7 +5879,6 @@ ImageID,label
 5877,white
 5878,white
 5879,black
-588,white
 5880,white
 5881,black
 5882,white
@@ -5433,7 +5889,6 @@ ImageID,label
 5887,white
 5888,white
 5889,black
-589,white
 5890,white
 5891,white
 5892,black
@@ -5444,8 +5899,6 @@ ImageID,label
 5897,black
 5898,black
 5899,black
-59,black
-590,white
 5900,black
 5901,white
 5902,black
@@ -5456,7 +5909,6 @@ ImageID,label
 5907,white
 5908,white
 5909,white
-591,black
 5910,white
 5911,white
 5912,black
@@ -5467,7 +5919,6 @@ ImageID,label
 5917,white
 5918,black
 5919,black
-592,black
 5920,black
 5921,white
 5922,white
@@ -5478,7 +5929,6 @@ ImageID,label
 5927,white
 5928,black
 5929,white
-593,black
 5930,white
 5931,white
 5932,black
@@ -5489,7 +5939,6 @@ ImageID,label
 5937,black
 5938,black
 5939,black
-594,white
 5940,black
 5941,white
 5942,black
@@ -5500,7 +5949,6 @@ ImageID,label
 5947,white
 5948,white
 5949,black
-595,white
 5950,black
 5951,white
 5952,black
@@ -5511,7 +5959,6 @@ ImageID,label
 5957,black
 5958,black
 5959,white
-596,black
 5960,black
 5961,white
 5962,black
@@ -5522,7 +5969,6 @@ ImageID,label
 5967,white
 5968,white
 5969,white
-597,black
 5970,black
 5971,white
 5972,black
@@ -5533,7 +5979,6 @@ ImageID,label
 5977,white
 5978,black
 5979,white
-598,black
 5980,white
 5981,black
 5982,black
@@ -5544,7 +5989,6 @@ ImageID,label
 5987,black
 5988,white
 5989,white
-599,white
 5990,black
 5991,white
 5992,black
@@ -5555,9 +5999,6 @@ ImageID,label
 5997,black
 5998,black
 5999,black
-6,black
-60,black
-600,black
 6000,black
 6001,black
 6002,white
@@ -5568,7 +6009,6 @@ ImageID,label
 6007,white
 6008,white
 6009,white
-601,black
 6010,white
 6011,black
 6012,white
@@ -5579,7 +6019,6 @@ ImageID,label
 6017,black
 6018,black
 6019,white
-602,white
 6020,white
 6021,white
 6022,white
@@ -5590,7 +6029,6 @@ ImageID,label
 6027,white
 6028,black
 6029,black
-603,white
 6030,black
 6031,black
 6032,black
@@ -5601,7 +6039,6 @@ ImageID,label
 6037,black
 6038,black
 6039,black
-604,white
 6040,black
 6041,white
 6042,white
@@ -5612,7 +6049,6 @@ ImageID,label
 6047,white
 6048,white
 6049,white
-605,white
 6050,black
 6051,black
 6052,white
@@ -5623,7 +6059,6 @@ ImageID,label
 6057,black
 6058,black
 6059,black
-606,black
 6060,black
 6061,black
 6062,black
@@ -5634,7 +6069,6 @@ ImageID,label
 6067,white
 6068,black
 6069,black
-607,black
 6070,white
 6071,white
 6072,black
@@ -5645,7 +6079,6 @@ ImageID,label
 6077,white
 6078,white
 6079,black
-608,white
 6080,white
 6081,black
 6082,black
@@ -5656,7 +6089,6 @@ ImageID,label
 6087,black
 6088,black
 6089,white
-609,black
 6090,black
 6091,white
 6092,black
@@ -5667,8 +6099,6 @@ ImageID,label
 6097,white
 6098,black
 6099,black
-61,black
-610,black
 6100,black
 6101,white
 6102,black
@@ -5679,7 +6109,6 @@ ImageID,label
 6107,black
 6108,white
 6109,black
-611,white
 6110,black
 6111,black
 6112,black
@@ -5690,7 +6119,6 @@ ImageID,label
 6117,black
 6118,white
 6119,black
-612,black
 6120,white
 6121,black
 6122,white
@@ -5701,7 +6129,6 @@ ImageID,label
 6127,white
 6128,black
 6129,black
-613,black
 6130,black
 6131,white
 6132,white
@@ -5712,7 +6139,6 @@ ImageID,label
 6137,white
 6138,white
 6139,black
-614,black
 6140,white
 6141,black
 6142,black
@@ -5723,7 +6149,6 @@ ImageID,label
 6147,black
 6148,black
 6149,white
-615,black
 6150,white
 6151,white
 6152,black
@@ -5734,7 +6159,6 @@ ImageID,label
 6157,black
 6158,black
 6159,black
-616,black
 6160,white
 6161,white
 6162,white
@@ -5745,7 +6169,6 @@ ImageID,label
 6167,white
 6168,white
 6169,black
-617,white
 6170,white
 6171,black
 6172,black
@@ -5756,7 +6179,6 @@ ImageID,label
 6177,black
 6178,black
 6179,white
-618,white
 6180,black
 6181,black
 6182,white
@@ -5767,7 +6189,6 @@ ImageID,label
 6187,white
 6188,white
 6189,black
-619,white
 6190,black
 6191,white
 6192,white
@@ -5778,8 +6199,6 @@ ImageID,label
 6197,black
 6198,black
 6199,black
-62,white
-620,white
 6200,white
 6201,white
 6202,black
@@ -5790,7 +6209,6 @@ ImageID,label
 6207,white
 6208,black
 6209,black
-621,black
 6210,white
 6211,black
 6212,black
@@ -5801,7 +6219,6 @@ ImageID,label
 6217,white
 6218,white
 6219,black
-622,white
 6220,white
 6221,white
 6222,black
@@ -5812,7 +6229,6 @@ ImageID,label
 6227,black
 6228,black
 6229,black
-623,white
 6230,black
 6231,black
 6232,white
@@ -5823,7 +6239,6 @@ ImageID,label
 6237,black
 6238,white
 6239,white
-624,white
 6240,white
 6241,white
 6242,black
@@ -5834,7 +6249,6 @@ ImageID,label
 6247,white
 6248,black
 6249,black
-625,white
 6250,white
 6251,black
 6252,black
@@ -5845,7 +6259,6 @@ ImageID,label
 6257,white
 6258,black
 6259,white
-626,white
 6260,black
 6261,black
 6262,white
@@ -5856,7 +6269,6 @@ ImageID,label
 6267,black
 6268,white
 6269,white
-627,white
 6270,white
 6271,white
 6272,white
@@ -5867,7 +6279,6 @@ ImageID,label
 6277,black
 6278,black
 6279,white
-628,black
 6280,white
 6281,white
 6282,white
@@ -5878,7 +6289,6 @@ ImageID,label
 6287,white
 6288,white
 6289,black
-629,black
 6290,white
 6291,white
 6292,white
@@ -5889,8 +6299,6 @@ ImageID,label
 6297,black
 6298,white
 6299,black
-63,black
-630,black
 6300,black
 6301,white
 6302,black
@@ -5901,7 +6309,6 @@ ImageID,label
 6307,white
 6308,white
 6309,black
-631,white
 6310,white
 6311,black
 6312,black
@@ -5912,7 +6319,6 @@ ImageID,label
 6317,black
 6318,black
 6319,black
-632,white
 6320,black
 6321,black
 6322,black
@@ -5923,7 +6329,6 @@ ImageID,label
 6327,black
 6328,white
 6329,white
-633,white
 6330,white
 6331,black
 6332,black
@@ -5934,7 +6339,6 @@ ImageID,label
 6337,white
 6338,white
 6339,black
-634,white
 6340,black
 6341,white
 6342,black
@@ -5945,7 +6349,6 @@ ImageID,label
 6347,black
 6348,white
 6349,white
-635,black
 6350,white
 6351,white
 6352,white
@@ -5956,7 +6359,6 @@ ImageID,label
 6357,black
 6358,white
 6359,white
-636,white
 6360,white
 6361,white
 6362,black
@@ -5967,7 +6369,6 @@ ImageID,label
 6367,white
 6368,black
 6369,black
-637,white
 6370,black
 6371,white
 6372,white
@@ -5978,7 +6379,6 @@ ImageID,label
 6377,white
 6378,white
 6379,black
-638,white
 6380,white
 6381,black
 6382,white
@@ -5989,7 +6389,6 @@ ImageID,label
 6387,black
 6388,white
 6389,white
-639,white
 6390,black
 6391,white
 6392,black
@@ -6000,8 +6399,6 @@ ImageID,label
 6397,white
 6398,black
 6399,white
-64,white
-640,white
 6400,white
 6401,black
 6402,white
@@ -6012,7 +6409,6 @@ ImageID,label
 6407,white
 6408,white
 6409,white
-641,white
 6410,white
 6411,black
 6412,black
@@ -6023,7 +6419,6 @@ ImageID,label
 6417,black
 6418,white
 6419,black
-642,white
 6420,white
 6421,black
 6422,white
@@ -6034,7 +6429,6 @@ ImageID,label
 6427,black
 6428,white
 6429,white
-643,white
 6430,black
 6431,white
 6432,black
@@ -6045,7 +6439,6 @@ ImageID,label
 6437,white
 6438,white
 6439,black
-644,white
 6440,white
 6441,black
 6442,black
@@ -6056,7 +6449,6 @@ ImageID,label
 6447,white
 6448,white
 6449,black
-645,black
 6450,black
 6451,white
 6452,black
@@ -6067,7 +6459,6 @@ ImageID,label
 6457,white
 6458,black
 6459,black
-646,black
 6460,white
 6461,black
 6462,black
@@ -6078,7 +6469,6 @@ ImageID,label
 6467,white
 6468,white
 6469,black
-647,black
 6470,black
 6471,white
 6472,white
@@ -6089,7 +6479,6 @@ ImageID,label
 6477,black
 6478,black
 6479,white
-648,white
 6480,white
 6481,white
 6482,black
@@ -6100,7 +6489,6 @@ ImageID,label
 6487,black
 6488,white
 6489,black
-649,black
 6490,white
 6491,black
 6492,black
@@ -6111,8 +6499,6 @@ ImageID,label
 6497,black
 6498,white
 6499,black
-65,white
-650,black
 6500,white
 6501,white
 6502,black
@@ -6123,7 +6509,6 @@ ImageID,label
 6507,black
 6508,black
 6509,white
-651,black
 6510,black
 6511,black
 6512,black
@@ -6134,7 +6519,6 @@ ImageID,label
 6517,white
 6518,white
 6519,black
-652,white
 6520,white
 6521,white
 6522,white
@@ -6145,7 +6529,6 @@ ImageID,label
 6527,white
 6528,white
 6529,black
-653,black
 6530,black
 6531,black
 6532,white
@@ -6156,7 +6539,6 @@ ImageID,label
 6537,black
 6538,white
 6539,white
-654,black
 6540,white
 6541,white
 6542,black
@@ -6167,7 +6549,6 @@ ImageID,label
 6547,white
 6548,white
 6549,white
-655,white
 6550,white
 6551,white
 6552,white
@@ -6178,7 +6559,6 @@ ImageID,label
 6557,white
 6558,black
 6559,white
-656,white
 6560,white
 6561,white
 6562,white
@@ -6189,7 +6569,6 @@ ImageID,label
 6567,black
 6568,white
 6569,black
-657,white
 6570,white
 6571,black
 6572,black
@@ -6200,7 +6579,6 @@ ImageID,label
 6577,black
 6578,black
 6579,white
-658,black
 6580,white
 6581,white
 6582,white
@@ -6211,7 +6589,6 @@ ImageID,label
 6587,black
 6588,white
 6589,white
-659,white
 6590,black
 6591,white
 6592,white
@@ -6222,8 +6599,6 @@ ImageID,label
 6597,white
 6598,white
 6599,black
-66,black
-660,white
 6600,black
 6601,white
 6602,black
@@ -6234,7 +6609,6 @@ ImageID,label
 6607,black
 6608,white
 6609,white
-661,black
 6610,white
 6611,white
 6612,white
@@ -6245,7 +6619,6 @@ ImageID,label
 6617,black
 6618,black
 6619,white
-662,black
 6620,white
 6621,white
 6622,black
@@ -6256,7 +6629,6 @@ ImageID,label
 6627,black
 6628,black
 6629,black
-663,white
 6630,black
 6631,black
 6632,white
@@ -6267,7 +6639,6 @@ ImageID,label
 6637,white
 6638,white
 6639,black
-664,black
 6640,black
 6641,black
 6642,white
@@ -6278,7 +6649,6 @@ ImageID,label
 6647,white
 6648,white
 6649,white
-665,white
 6650,white
 6651,white
 6652,white
@@ -6289,7 +6659,6 @@ ImageID,label
 6657,white
 6658,black
 6659,black
-666,white
 6660,black
 6661,white
 6662,black
@@ -6300,7 +6669,6 @@ ImageID,label
 6667,black
 6668,black
 6669,black
-667,white
 6670,black
 6671,black
 6672,white
@@ -6311,7 +6679,6 @@ ImageID,label
 6677,white
 6678,white
 6679,black
-668,black
 6680,white
 6681,black
 6682,white
@@ -6322,7 +6689,6 @@ ImageID,label
 6687,black
 6688,white
 6689,black
-669,white
 6690,black
 6691,white
 6692,black
@@ -6333,8 +6699,6 @@ ImageID,label
 6697,black
 6698,black
 6699,black
-67,black
-670,black
 6700,white
 6701,white
 6702,black
@@ -6345,7 +6709,6 @@ ImageID,label
 6707,black
 6708,white
 6709,black
-671,white
 6710,white
 6711,black
 6712,black
@@ -6356,7 +6719,6 @@ ImageID,label
 6717,black
 6718,white
 6719,white
-672,black
 6720,black
 6721,white
 6722,white
@@ -6367,7 +6729,6 @@ ImageID,label
 6727,white
 6728,black
 6729,black
-673,black
 6730,white
 6731,white
 6732,white
@@ -6378,7 +6739,6 @@ ImageID,label
 6737,black
 6738,white
 6739,black
-674,black
 6740,white
 6741,black
 6742,white
@@ -6389,7 +6749,6 @@ ImageID,label
 6747,black
 6748,white
 6749,white
-675,white
 6750,black
 6751,white
 6752,white
@@ -6400,7 +6759,6 @@ ImageID,label
 6757,black
 6758,black
 6759,black
-676,black
 6760,white
 6761,black
 6762,black
@@ -6411,7 +6769,6 @@ ImageID,label
 6767,black
 6768,white
 6769,white
-677,black
 6770,white
 6771,white
 6772,black
@@ -6422,7 +6779,6 @@ ImageID,label
 6777,white
 6778,white
 6779,white
-678,black
 6780,black
 6781,white
 6782,black
@@ -6433,7 +6789,6 @@ ImageID,label
 6787,white
 6788,white
 6789,black
-679,black
 6790,white
 6791,white
 6792,white
@@ -6444,8 +6799,6 @@ ImageID,label
 6797,black
 6798,black
 6799,black
-68,black
-680,black
 6800,black
 6801,black
 6802,white
@@ -6456,7 +6809,6 @@ ImageID,label
 6807,white
 6808,white
 6809,white
-681,black
 6810,white
 6811,black
 6812,black
@@ -6467,7 +6819,6 @@ ImageID,label
 6817,black
 6818,black
 6819,white
-682,white
 6820,black
 6821,black
 6822,white
@@ -6478,7 +6829,6 @@ ImageID,label
 6827,white
 6828,black
 6829,white
-683,white
 6830,white
 6831,black
 6832,black
@@ -6489,7 +6839,6 @@ ImageID,label
 6837,white
 6838,white
 6839,black
-684,black
 6840,white
 6841,black
 6842,black
@@ -6500,7 +6849,6 @@ ImageID,label
 6847,white
 6848,black
 6849,black
-685,black
 6850,black
 6851,black
 6852,white
@@ -6511,7 +6859,6 @@ ImageID,label
 6857,black
 6858,white
 6859,white
-686,black
 6860,white
 6861,white
 6862,white
@@ -6522,7 +6869,6 @@ ImageID,label
 6867,white
 6868,white
 6869,black
-687,black
 6870,black
 6871,black
 6872,black
@@ -6533,7 +6879,6 @@ ImageID,label
 6877,white
 6878,black
 6879,white
-688,white
 6880,black
 6881,white
 6882,white
@@ -6544,7 +6889,6 @@ ImageID,label
 6887,black
 6888,black
 6889,black
-689,white
 6890,white
 6891,black
 6892,white
@@ -6555,8 +6899,6 @@ ImageID,label
 6897,white
 6898,white
 6899,black
-69,black
-690,black
 6900,black
 6901,white
 6902,white
@@ -6567,7 +6909,6 @@ ImageID,label
 6907,black
 6908,white
 6909,black
-691,black
 6910,black
 6911,white
 6912,black
@@ -6578,7 +6919,6 @@ ImageID,label
 6917,black
 6918,white
 6919,white
-692,white
 6920,white
 6921,black
 6922,white
@@ -6589,7 +6929,6 @@ ImageID,label
 6927,white
 6928,black
 6929,black
-693,white
 6930,black
 6931,white
 6932,black
@@ -6600,7 +6939,6 @@ ImageID,label
 6937,white
 6938,black
 6939,black
-694,white
 6940,white
 6941,black
 6942,black
@@ -6611,7 +6949,6 @@ ImageID,label
 6947,black
 6948,white
 6949,black
-695,white
 6950,black
 6951,black
 6952,white
@@ -6622,7 +6959,6 @@ ImageID,label
 6957,white
 6958,black
 6959,white
-696,black
 6960,white
 6961,white
 6962,black
@@ -6633,7 +6969,6 @@ ImageID,label
 6967,black
 6968,black
 6969,black
-697,white
 6970,white
 6971,white
 6972,white
@@ -6644,7 +6979,6 @@ ImageID,label
 6977,black
 6978,black
 6979,white
-698,white
 6980,black
 6981,black
 6982,black
@@ -6655,7 +6989,6 @@ ImageID,label
 6987,white
 6988,black
 6989,white
-699,black
 6990,black
 6991,white
 6992,white
@@ -6666,9 +6999,6 @@ ImageID,label
 6997,black
 6998,white
 6999,black
-7,black
-70,white
-700,black
 7000,black
 7001,white
 7002,black
@@ -6679,7 +7009,6 @@ ImageID,label
 7007,white
 7008,white
 7009,white
-701,black
 7010,white
 7011,white
 7012,white
@@ -6690,7 +7019,6 @@ ImageID,label
 7017,white
 7018,black
 7019,black
-702,white
 7020,black
 7021,white
 7022,black
@@ -6701,7 +7029,6 @@ ImageID,label
 7027,black
 7028,white
 7029,black
-703,black
 7030,white
 7031,white
 7032,black
@@ -6712,7 +7039,6 @@ ImageID,label
 7037,black
 7038,white
 7039,black
-704,black
 7040,white
 7041,black
 7042,white
@@ -6723,7 +7049,6 @@ ImageID,label
 7047,black
 7048,black
 7049,black
-705,black
 7050,white
 7051,black
 7052,white
@@ -6734,7 +7059,6 @@ ImageID,label
 7057,black
 7058,black
 7059,white
-706,white
 7060,black
 7061,black
 7062,black
@@ -6745,7 +7069,6 @@ ImageID,label
 7067,white
 7068,black
 7069,white
-707,white
 7070,black
 7071,white
 7072,white
@@ -6756,7 +7079,6 @@ ImageID,label
 7077,black
 7078,white
 7079,black
-708,white
 7080,white
 7081,white
 7082,white
@@ -6767,7 +7089,6 @@ ImageID,label
 7087,white
 7088,white
 7089,white
-709,white
 7090,white
 7091,white
 7092,black
@@ -6778,8 +7099,6 @@ ImageID,label
 7097,white
 7098,black
 7099,white
-71,white
-710,black
 7100,black
 7101,black
 7102,black
@@ -6790,7 +7109,6 @@ ImageID,label
 7107,white
 7108,white
 7109,white
-711,white
 7110,white
 7111,black
 7112,black
@@ -6801,7 +7119,6 @@ ImageID,label
 7117,white
 7118,white
 7119,white
-712,white
 7120,white
 7121,white
 7122,black
@@ -6812,7 +7129,6 @@ ImageID,label
 7127,white
 7128,white
 7129,white
-713,white
 7130,black
 7131,black
 7132,black
@@ -6823,7 +7139,6 @@ ImageID,label
 7137,white
 7138,black
 7139,black
-714,black
 7140,black
 7141,black
 7142,white
@@ -6834,7 +7149,6 @@ ImageID,label
 7147,black
 7148,black
 7149,white
-715,black
 7150,black
 7151,black
 7152,white
@@ -6845,7 +7159,6 @@ ImageID,label
 7157,white
 7158,black
 7159,black
-716,white
 7160,white
 7161,white
 7162,black
@@ -6856,7 +7169,6 @@ ImageID,label
 7167,black
 7168,white
 7169,black
-717,black
 7170,white
 7171,white
 7172,black
@@ -6867,7 +7179,6 @@ ImageID,label
 7177,white
 7178,black
 7179,black
-718,black
 7180,white
 7181,black
 7182,white
@@ -6878,7 +7189,6 @@ ImageID,label
 7187,black
 7188,white
 7189,white
-719,black
 7190,white
 7191,white
 7192,black
@@ -6889,8 +7199,6 @@ ImageID,label
 7197,black
 7198,white
 7199,black
-72,white
-720,white
 7200,white
 7201,black
 7202,black
@@ -6901,7 +7209,6 @@ ImageID,label
 7207,black
 7208,white
 7209,white
-721,white
 7210,black
 7211,black
 7212,black
@@ -6912,7 +7219,6 @@ ImageID,label
 7217,white
 7218,black
 7219,black
-722,black
 7220,black
 7221,white
 7222,white
@@ -6923,7 +7229,6 @@ ImageID,label
 7227,white
 7228,black
 7229,white
-723,black
 7230,black
 7231,black
 7232,black
@@ -6934,7 +7239,6 @@ ImageID,label
 7237,black
 7238,black
 7239,black
-724,black
 7240,black
 7241,white
 7242,black
@@ -6945,7 +7249,6 @@ ImageID,label
 7247,black
 7248,black
 7249,black
-725,white
 7250,black
 7251,black
 7252,black
@@ -6956,7 +7259,6 @@ ImageID,label
 7257,white
 7258,black
 7259,white
-726,white
 7260,white
 7261,white
 7262,black
@@ -6967,7 +7269,6 @@ ImageID,label
 7267,white
 7268,white
 7269,white
-727,white
 7270,black
 7271,white
 7272,white
@@ -6978,7 +7279,6 @@ ImageID,label
 7277,white
 7278,black
 7279,black
-728,white
 7280,white
 7281,black
 7282,white
@@ -6989,7 +7289,6 @@ ImageID,label
 7287,black
 7288,white
 7289,white
-729,black
 7290,black
 7291,black
 7292,white
@@ -7000,8 +7299,6 @@ ImageID,label
 7297,white
 7298,black
 7299,black
-73,white
-730,black
 7300,white
 7301,black
 7302,white
@@ -7012,7 +7309,6 @@ ImageID,label
 7307,white
 7308,black
 7309,black
-731,white
 7310,white
 7311,black
 7312,white
@@ -7023,7 +7319,6 @@ ImageID,label
 7317,black
 7318,white
 7319,white
-732,white
 7320,black
 7321,black
 7322,black
@@ -7034,7 +7329,6 @@ ImageID,label
 7327,black
 7328,white
 7329,black
-733,white
 7330,black
 7331,white
 7332,white
@@ -7045,7 +7339,6 @@ ImageID,label
 7337,white
 7338,white
 7339,black
-734,black
 7340,white
 7341,white
 7342,black
@@ -7056,7 +7349,6 @@ ImageID,label
 7347,white
 7348,white
 7349,white
-735,white
 7350,white
 7351,black
 7352,white
@@ -7067,7 +7359,6 @@ ImageID,label
 7357,black
 7358,black
 7359,white
-736,white
 7360,black
 7361,black
 7362,white
@@ -7078,7 +7369,6 @@ ImageID,label
 7367,white
 7368,white
 7369,black
-737,black
 7370,white
 7371,white
 7372,white
@@ -7089,7 +7379,6 @@ ImageID,label
 7377,white
 7378,black
 7379,white
-738,black
 7380,white
 7381,white
 7382,black
@@ -7100,7 +7389,6 @@ ImageID,label
 7387,white
 7388,black
 7389,white
-739,white
 7390,white
 7391,white
 7392,white
@@ -7111,8 +7399,6 @@ ImageID,label
 7397,white
 7398,white
 7399,black
-74,white
-740,white
 7400,black
 7401,black
 7402,white
@@ -7123,7 +7409,6 @@ ImageID,label
 7407,white
 7408,white
 7409,white
-741,black
 7410,black
 7411,black
 7412,black
@@ -7134,7 +7419,6 @@ ImageID,label
 7417,black
 7418,black
 7419,white
-742,white
 7420,white
 7421,white
 7422,black
@@ -7145,7 +7429,6 @@ ImageID,label
 7427,black
 7428,white
 7429,black
-743,black
 7430,black
 7431,white
 7432,white
@@ -7156,7 +7439,6 @@ ImageID,label
 7437,black
 7438,black
 7439,black
-744,black
 7440,black
 7441,white
 7442,black
@@ -7167,7 +7449,6 @@ ImageID,label
 7447,white
 7448,white
 7449,black
-745,white
 7450,white
 7451,black
 7452,white
@@ -7178,7 +7459,6 @@ ImageID,label
 7457,white
 7458,black
 7459,white
-746,black
 7460,white
 7461,white
 7462,white
@@ -7189,7 +7469,6 @@ ImageID,label
 7467,black
 7468,white
 7469,black
-747,black
 7470,black
 7471,white
 7472,black
@@ -7200,7 +7479,6 @@ ImageID,label
 7477,white
 7478,black
 7479,white
-748,white
 7480,white
 7481,black
 7482,black
@@ -7211,7 +7489,6 @@ ImageID,label
 7487,white
 7488,black
 7489,white
-749,white
 7490,black
 7491,black
 7492,black
@@ -7222,8 +7499,6 @@ ImageID,label
 7497,white
 7498,black
 7499,black
-75,white
-750,white
 7500,black
 7501,black
 7502,white
@@ -7234,7 +7509,6 @@ ImageID,label
 7507,white
 7508,black
 7509,black
-751,white
 7510,black
 7511,white
 7512,white
@@ -7245,7 +7519,6 @@ ImageID,label
 7517,white
 7518,white
 7519,white
-752,white
 7520,black
 7521,white
 7522,black
@@ -7256,7 +7529,6 @@ ImageID,label
 7527,white
 7528,black
 7529,white
-753,white
 7530,black
 7531,white
 7532,white
@@ -7267,7 +7539,6 @@ ImageID,label
 7537,white
 7538,white
 7539,black
-754,black
 7540,white
 7541,white
 7542,black
@@ -7278,7 +7549,6 @@ ImageID,label
 7547,black
 7548,black
 7549,white
-755,black
 7550,black
 7551,black
 7552,white
@@ -7289,7 +7559,6 @@ ImageID,label
 7557,black
 7558,black
 7559,white
-756,black
 7560,white
 7561,white
 7562,white
@@ -7300,7 +7569,6 @@ ImageID,label
 7567,black
 7568,black
 7569,black
-757,white
 7570,black
 7571,white
 7572,black
@@ -7311,7 +7579,6 @@ ImageID,label
 7577,black
 7578,black
 7579,black
-758,black
 7580,white
 7581,white
 7582,white
@@ -7322,7 +7589,6 @@ ImageID,label
 7587,black
 7588,white
 7589,white
-759,white
 7590,white
 7591,black
 7592,black
@@ -7333,8 +7599,6 @@ ImageID,label
 7597,black
 7598,white
 7599,black
-76,white
-760,white
 7600,white
 7601,white
 7602,white
@@ -7345,7 +7609,6 @@ ImageID,label
 7607,black
 7608,black
 7609,white
-761,black
 7610,black
 7611,white
 7612,white
@@ -7356,7 +7619,6 @@ ImageID,label
 7617,white
 7618,black
 7619,black
-762,black
 7620,white
 7621,white
 7622,black
@@ -7367,7 +7629,6 @@ ImageID,label
 7627,black
 7628,black
 7629,black
-763,black
 7630,black
 7631,white
 7632,white
@@ -7378,7 +7639,6 @@ ImageID,label
 7637,black
 7638,black
 7639,black
-764,white
 7640,black
 7641,black
 7642,white
@@ -7389,7 +7649,6 @@ ImageID,label
 7647,black
 7648,white
 7649,black
-765,black
 7650,black
 7651,black
 7652,white
@@ -7400,7 +7659,6 @@ ImageID,label
 7657,white
 7658,white
 7659,black
-766,black
 7660,black
 7661,black
 7662,white
@@ -7411,7 +7669,6 @@ ImageID,label
 7667,white
 7668,white
 7669,black
-767,black
 7670,black
 7671,black
 7672,white
@@ -7422,7 +7679,6 @@ ImageID,label
 7677,white
 7678,white
 7679,black
-768,white
 7680,white
 7681,white
 7682,white
@@ -7433,7 +7689,6 @@ ImageID,label
 7687,white
 7688,white
 7689,black
-769,white
 7690,black
 7691,white
 7692,black
@@ -7444,8 +7699,6 @@ ImageID,label
 7697,white
 7698,white
 7699,white
-77,black
-770,black
 7700,black
 7701,white
 7702,black
@@ -7456,7 +7709,6 @@ ImageID,label
 7707,black
 7708,black
 7709,white
-771,black
 7710,black
 7711,black
 7712,black
@@ -7467,7 +7719,6 @@ ImageID,label
 7717,white
 7718,white
 7719,white
-772,black
 7720,white
 7721,white
 7722,white
@@ -7478,7 +7729,6 @@ ImageID,label
 7727,black
 7728,black
 7729,white
-773,black
 7730,black
 7731,white
 7732,white
@@ -7489,7 +7739,6 @@ ImageID,label
 7737,white
 7738,black
 7739,black
-774,white
 7740,white
 7741,white
 7742,white
@@ -7500,7 +7749,6 @@ ImageID,label
 7747,black
 7748,black
 7749,black
-775,white
 7750,black
 7751,black
 7752,black
@@ -7511,7 +7759,6 @@ ImageID,label
 7757,white
 7758,black
 7759,white
-776,black
 7760,white
 7761,black
 7762,black
@@ -7522,7 +7769,6 @@ ImageID,label
 7767,white
 7768,white
 7769,white
-777,black
 7770,black
 7771,black
 7772,black
@@ -7533,7 +7779,6 @@ ImageID,label
 7777,black
 7778,white
 7779,white
-778,white
 7780,black
 7781,black
 7782,black
@@ -7544,7 +7789,6 @@ ImageID,label
 7787,black
 7788,black
 7789,white
-779,white
 7790,white
 7791,white
 7792,white
@@ -7555,8 +7799,6 @@ ImageID,label
 7797,white
 7798,white
 7799,black
-78,white
-780,black
 7800,white
 7801,black
 7802,white
@@ -7567,7 +7809,6 @@ ImageID,label
 7807,white
 7808,black
 7809,white
-781,black
 7810,black
 7811,black
 7812,black
@@ -7578,7 +7819,6 @@ ImageID,label
 7817,black
 7818,black
 7819,black
-782,black
 7820,black
 7821,black
 7822,white
@@ -7589,7 +7829,6 @@ ImageID,label
 7827,white
 7828,white
 7829,white
-783,black
 7830,black
 7831,white
 7832,white
@@ -7600,7 +7839,6 @@ ImageID,label
 7837,black
 7838,white
 7839,black
-784,white
 7840,black
 7841,white
 7842,black
@@ -7611,7 +7849,6 @@ ImageID,label
 7847,black
 7848,black
 7849,white
-785,white
 7850,black
 7851,white
 7852,white
@@ -7622,7 +7859,6 @@ ImageID,label
 7857,white
 7858,white
 7859,white
-786,white
 7860,black
 7861,black
 7862,black
@@ -7633,7 +7869,6 @@ ImageID,label
 7867,white
 7868,white
 7869,black
-787,black
 7870,white
 7871,black
 7872,white
@@ -7644,7 +7879,6 @@ ImageID,label
 7877,white
 7878,black
 7879,black
-788,black
 7880,black
 7881,black
 7882,black
@@ -7655,7 +7889,6 @@ ImageID,label
 7887,white
 7888,black
 7889,white
-789,white
 7890,black
 7891,black
 7892,white
@@ -7666,8 +7899,6 @@ ImageID,label
 7897,white
 7898,black
 7899,white
-79,white
-790,black
 7900,black
 7901,black
 7902,white
@@ -7678,7 +7909,6 @@ ImageID,label
 7907,black
 7908,black
 7909,black
-791,white
 7910,black
 7911,white
 7912,white
@@ -7689,7 +7919,6 @@ ImageID,label
 7917,black
 7918,white
 7919,black
-792,white
 7920,white
 7921,black
 7922,black
@@ -7700,7 +7929,6 @@ ImageID,label
 7927,white
 7928,black
 7929,black
-793,white
 7930,black
 7931,black
 7932,black
@@ -7711,7 +7939,6 @@ ImageID,label
 7937,black
 7938,white
 7939,white
-794,black
 7940,white
 7941,black
 7942,white
@@ -7722,7 +7949,6 @@ ImageID,label
 7947,white
 7948,white
 7949,white
-795,black
 7950,white
 7951,black
 7952,white
@@ -7733,7 +7959,6 @@ ImageID,label
 7957,black
 7958,black
 7959,black
-796,black
 7960,white
 7961,black
 7962,black
@@ -7744,7 +7969,6 @@ ImageID,label
 7967,black
 7968,white
 7969,black
-797,black
 7970,white
 7971,white
 7972,white
@@ -7755,7 +7979,6 @@ ImageID,label
 7977,black
 7978,white
 7979,black
-798,black
 7980,white
 7981,white
 7982,black
@@ -7766,7 +7989,6 @@ ImageID,label
 7987,white
 7988,black
 7989,black
-799,black
 7990,white
 7991,white
 7992,white
@@ -7777,9 +7999,6 @@ ImageID,label
 7997,black
 7998,white
 7999,white
-8,white
-80,white
-800,white
 8000,white
 8001,white
 8002,black
@@ -7790,7 +8009,6 @@ ImageID,label
 8007,white
 8008,black
 8009,white
-801,black
 8010,white
 8011,black
 8012,black
@@ -7801,7 +8019,6 @@ ImageID,label
 8017,white
 8018,black
 8019,black
-802,white
 8020,white
 8021,black
 8022,white
@@ -7812,7 +8029,6 @@ ImageID,label
 8027,black
 8028,white
 8029,black
-803,white
 8030,white
 8031,white
 8032,white
@@ -7823,7 +8039,6 @@ ImageID,label
 8037,white
 8038,white
 8039,white
-804,black
 8040,white
 8041,white
 8042,white
@@ -7834,7 +8049,6 @@ ImageID,label
 8047,black
 8048,white
 8049,white
-805,black
 8050,black
 8051,white
 8052,black
@@ -7845,7 +8059,6 @@ ImageID,label
 8057,black
 8058,black
 8059,white
-806,black
 8060,white
 8061,white
 8062,white
@@ -7856,7 +8069,6 @@ ImageID,label
 8067,black
 8068,white
 8069,white
-807,black
 8070,black
 8071,black
 8072,white
@@ -7867,7 +8079,6 @@ ImageID,label
 8077,white
 8078,black
 8079,black
-808,black
 8080,black
 8081,white
 8082,black
@@ -7878,7 +8089,6 @@ ImageID,label
 8087,black
 8088,black
 8089,white
-809,white
 8090,white
 8091,black
 8092,white
@@ -7889,8 +8099,6 @@ ImageID,label
 8097,black
 8098,black
 8099,white
-81,white
-810,white
 8100,white
 8101,black
 8102,white
@@ -7901,7 +8109,6 @@ ImageID,label
 8107,white
 8108,black
 8109,black
-811,black
 8110,black
 8111,black
 8112,black
@@ -7912,7 +8119,6 @@ ImageID,label
 8117,black
 8118,black
 8119,white
-812,white
 8120,black
 8121,white
 8122,white
@@ -7923,7 +8129,6 @@ ImageID,label
 8127,black
 8128,white
 8129,white
-813,black
 8130,white
 8131,white
 8132,white
@@ -7934,7 +8139,6 @@ ImageID,label
 8137,white
 8138,white
 8139,white
-814,black
 8140,white
 8141,black
 8142,white
@@ -7945,7 +8149,6 @@ ImageID,label
 8147,white
 8148,black
 8149,black
-815,white
 8150,black
 8151,black
 8152,white
@@ -7956,7 +8159,6 @@ ImageID,label
 8157,white
 8158,black
 8159,white
-816,white
 8160,black
 8161,white
 8162,white
@@ -7967,7 +8169,6 @@ ImageID,label
 8167,white
 8168,white
 8169,white
-817,black
 8170,black
 8171,black
 8172,white
@@ -7978,7 +8179,6 @@ ImageID,label
 8177,white
 8178,white
 8179,white
-818,white
 8180,white
 8181,white
 8182,black
@@ -7989,7 +8189,6 @@ ImageID,label
 8187,black
 8188,white
 8189,white
-819,white
 8190,white
 8191,white
 8192,black
@@ -8000,8 +8199,6 @@ ImageID,label
 8197,white
 8198,black
 8199,black
-82,white
-820,black
 8200,black
 8201,black
 8202,white
@@ -8012,7 +8209,6 @@ ImageID,label
 8207,white
 8208,white
 8209,white
-821,black
 8210,white
 8211,white
 8212,white
@@ -8023,7 +8219,6 @@ ImageID,label
 8217,white
 8218,white
 8219,black
-822,black
 8220,white
 8221,black
 8222,white
@@ -8034,7 +8229,6 @@ ImageID,label
 8227,white
 8228,black
 8229,white
-823,black
 8230,white
 8231,white
 8232,black
@@ -8045,7 +8239,6 @@ ImageID,label
 8237,black
 8238,white
 8239,white
-824,black
 8240,white
 8241,black
 8242,white
@@ -8056,7 +8249,6 @@ ImageID,label
 8247,black
 8248,black
 8249,white
-825,black
 8250,black
 8251,black
 8252,white
@@ -8067,7 +8259,6 @@ ImageID,label
 8257,black
 8258,white
 8259,white
-826,white
 8260,white
 8261,black
 8262,black
@@ -8078,7 +8269,6 @@ ImageID,label
 8267,black
 8268,black
 8269,white
-827,black
 8270,black
 8271,white
 8272,white
@@ -8089,7 +8279,6 @@ ImageID,label
 8277,white
 8278,black
 8279,black
-828,white
 8280,white
 8281,black
 8282,black
@@ -8100,7 +8289,6 @@ ImageID,label
 8287,black
 8288,black
 8289,white
-829,white
 8290,white
 8291,black
 8292,white
@@ -8111,8 +8299,6 @@ ImageID,label
 8297,white
 8298,black
 8299,black
-83,white
-830,black
 8300,black
 8301,black
 8302,black
@@ -8123,7 +8309,6 @@ ImageID,label
 8307,white
 8308,black
 8309,black
-831,white
 8310,black
 8311,white
 8312,white
@@ -8134,7 +8319,6 @@ ImageID,label
 8317,white
 8318,white
 8319,black
-832,black
 8320,black
 8321,black
 8322,white
@@ -8145,7 +8329,6 @@ ImageID,label
 8327,black
 8328,black
 8329,black
-833,white
 8330,white
 8331,black
 8332,black
@@ -8156,7 +8339,6 @@ ImageID,label
 8337,black
 8338,white
 8339,black
-834,black
 8340,white
 8341,black
 8342,white
@@ -8167,7 +8349,6 @@ ImageID,label
 8347,white
 8348,white
 8349,white
-835,white
 8350,white
 8351,black
 8352,black
@@ -8178,7 +8359,6 @@ ImageID,label
 8357,white
 8358,black
 8359,white
-836,black
 8360,white
 8361,black
 8362,black
@@ -8189,7 +8369,6 @@ ImageID,label
 8367,white
 8368,black
 8369,black
-837,black
 8370,black
 8371,white
 8372,white
@@ -8200,7 +8379,6 @@ ImageID,label
 8377,black
 8378,white
 8379,black
-838,white
 8380,black
 8381,white
 8382,white
@@ -8211,7 +8389,6 @@ ImageID,label
 8387,white
 8388,black
 8389,black
-839,black
 8390,white
 8391,white
 8392,black
@@ -8222,8 +8399,6 @@ ImageID,label
 8397,white
 8398,white
 8399,black
-84,white
-840,black
 8400,black
 8401,black
 8402,white
@@ -8234,7 +8409,6 @@ ImageID,label
 8407,white
 8408,black
 8409,black
-841,black
 8410,white
 8411,black
 8412,black
@@ -8245,7 +8419,6 @@ ImageID,label
 8417,white
 8418,white
 8419,black
-842,black
 8420,black
 8421,black
 8422,black
@@ -8256,7 +8429,6 @@ ImageID,label
 8427,white
 8428,white
 8429,black
-843,white
 8430,black
 8431,black
 8432,black
@@ -8267,7 +8439,6 @@ ImageID,label
 8437,black
 8438,black
 8439,black
-844,black
 8440,black
 8441,white
 8442,black
@@ -8278,7 +8449,6 @@ ImageID,label
 8447,white
 8448,black
 8449,black
-845,white
 8450,white
 8451,white
 8452,black
@@ -8289,7 +8459,6 @@ ImageID,label
 8457,black
 8458,black
 8459,white
-846,black
 8460,white
 8461,black
 8462,white
@@ -8300,7 +8469,6 @@ ImageID,label
 8467,black
 8468,black
 8469,black
-847,white
 8470,white
 8471,white
 8472,black
@@ -8311,7 +8479,6 @@ ImageID,label
 8477,black
 8478,black
 8479,black
-848,white
 8480,white
 8481,black
 8482,white
@@ -8322,7 +8489,6 @@ ImageID,label
 8487,black
 8488,black
 8489,white
-849,black
 8490,white
 8491,black
 8492,white
@@ -8333,8 +8499,6 @@ ImageID,label
 8497,white
 8498,black
 8499,white
-85,white
-850,white
 8500,white
 8501,black
 8502,black
@@ -8345,7 +8509,6 @@ ImageID,label
 8507,white
 8508,black
 8509,white
-851,white
 8510,black
 8511,black
 8512,black
@@ -8356,7 +8519,6 @@ ImageID,label
 8517,black
 8518,white
 8519,white
-852,black
 8520,white
 8521,black
 8522,black
@@ -8367,7 +8529,6 @@ ImageID,label
 8527,white
 8528,white
 8529,white
-853,white
 8530,black
 8531,black
 8532,black
@@ -8378,7 +8539,6 @@ ImageID,label
 8537,white
 8538,black
 8539,black
-854,white
 8540,black
 8541,black
 8542,white
@@ -8389,7 +8549,6 @@ ImageID,label
 8547,white
 8548,black
 8549,black
-855,white
 8550,white
 8551,white
 8552,black
@@ -8400,7 +8559,6 @@ ImageID,label
 8557,white
 8558,white
 8559,black
-856,black
 8560,black
 8561,black
 8562,black
@@ -8411,7 +8569,6 @@ ImageID,label
 8567,white
 8568,black
 8569,white
-857,white
 8570,white
 8571,white
 8572,white
@@ -8422,7 +8579,6 @@ ImageID,label
 8577,white
 8578,black
 8579,black
-858,white
 8580,white
 8581,black
 8582,black
@@ -8433,7 +8589,6 @@ ImageID,label
 8587,white
 8588,black
 8589,white
-859,white
 8590,black
 8591,white
 8592,white
@@ -8444,8 +8599,6 @@ ImageID,label
 8597,black
 8598,black
 8599,white
-86,white
-860,black
 8600,white
 8601,white
 8602,black
@@ -8456,7 +8609,6 @@ ImageID,label
 8607,black
 8608,black
 8609,black
-861,white
 8610,white
 8611,black
 8612,white
@@ -8467,7 +8619,6 @@ ImageID,label
 8617,white
 8618,white
 8619,white
-862,white
 8620,black
 8621,white
 8622,white
@@ -8478,7 +8629,6 @@ ImageID,label
 8627,white
 8628,black
 8629,black
-863,white
 8630,white
 8631,black
 8632,black
@@ -8489,7 +8639,6 @@ ImageID,label
 8637,black
 8638,white
 8639,black
-864,black
 8640,white
 8641,black
 8642,black
@@ -8500,7 +8649,6 @@ ImageID,label
 8647,black
 8648,white
 8649,white
-865,white
 8650,black
 8651,white
 8652,white
@@ -8511,7 +8659,6 @@ ImageID,label
 8657,black
 8658,black
 8659,white
-866,black
 8660,white
 8661,white
 8662,white
@@ -8522,7 +8669,6 @@ ImageID,label
 8667,white
 8668,white
 8669,white
-867,white
 8670,white
 8671,black
 8672,black
@@ -8533,7 +8679,6 @@ ImageID,label
 8677,white
 8678,black
 8679,black
-868,white
 8680,white
 8681,white
 8682,black
@@ -8544,7 +8689,6 @@ ImageID,label
 8687,white
 8688,white
 8689,black
-869,black
 8690,white
 8691,white
 8692,black
@@ -8555,8 +8699,6 @@ ImageID,label
 8697,white
 8698,black
 8699,white
-87,white
-870,black
 8700,white
 8701,white
 8702,black
@@ -8567,7 +8709,6 @@ ImageID,label
 8707,white
 8708,black
 8709,white
-871,black
 8710,white
 8711,white
 8712,black
@@ -8578,7 +8719,6 @@ ImageID,label
 8717,white
 8718,black
 8719,white
-872,white
 8720,white
 8721,white
 8722,black
@@ -8589,7 +8729,6 @@ ImageID,label
 8727,white
 8728,black
 8729,black
-873,white
 8730,white
 8731,black
 8732,white
@@ -8600,7 +8739,6 @@ ImageID,label
 8737,white
 8738,white
 8739,black
-874,black
 8740,white
 8741,black
 8742,black
@@ -8611,7 +8749,6 @@ ImageID,label
 8747,black
 8748,black
 8749,black
-875,black
 8750,black
 8751,black
 8752,black
@@ -8622,7 +8759,6 @@ ImageID,label
 8757,black
 8758,white
 8759,black
-876,white
 8760,black
 8761,white
 8762,black
@@ -8633,7 +8769,6 @@ ImageID,label
 8767,white
 8768,white
 8769,white
-877,white
 8770,black
 8771,white
 8772,black
@@ -8644,7 +8779,6 @@ ImageID,label
 8777,black
 8778,black
 8779,white
-878,black
 8780,white
 8781,white
 8782,black
@@ -8655,7 +8789,6 @@ ImageID,label
 8787,black
 8788,black
 8789,black
-879,white
 8790,white
 8791,white
 8792,black
@@ -8666,8 +8799,6 @@ ImageID,label
 8797,white
 8798,black
 8799,white
-88,black
-880,white
 8800,black
 8801,black
 8802,white
@@ -8678,7 +8809,6 @@ ImageID,label
 8807,black
 8808,black
 8809,black
-881,white
 8810,black
 8811,black
 8812,black
@@ -8689,7 +8819,6 @@ ImageID,label
 8817,black
 8818,white
 8819,white
-882,black
 8820,black
 8821,white
 8822,white
@@ -8700,7 +8829,6 @@ ImageID,label
 8827,white
 8828,black
 8829,black
-883,white
 8830,black
 8831,black
 8832,black
@@ -8711,7 +8839,6 @@ ImageID,label
 8837,white
 8838,black
 8839,black
-884,white
 8840,black
 8841,white
 8842,black
@@ -8722,7 +8849,6 @@ ImageID,label
 8847,black
 8848,black
 8849,white
-885,black
 8850,white
 8851,black
 8852,black
@@ -8733,7 +8859,6 @@ ImageID,label
 8857,white
 8858,black
 8859,black
-886,black
 8860,white
 8861,black
 8862,white
@@ -8744,7 +8869,6 @@ ImageID,label
 8867,black
 8868,black
 8869,white
-887,white
 8870,black
 8871,black
 8872,black
@@ -8755,7 +8879,6 @@ ImageID,label
 8877,white
 8878,black
 8879,white
-888,black
 8880,white
 8881,white
 8882,black
@@ -8766,7 +8889,6 @@ ImageID,label
 8887,white
 8888,white
 8889,white
-889,black
 8890,white
 8891,white
 8892,black
@@ -8777,8 +8899,6 @@ ImageID,label
 8897,black
 8898,white
 8899,black
-89,white
-890,white
 8900,white
 8901,black
 8902,white
@@ -8789,7 +8909,6 @@ ImageID,label
 8907,white
 8908,black
 8909,white
-891,white
 8910,black
 8911,white
 8912,white
@@ -8800,7 +8919,6 @@ ImageID,label
 8917,white
 8918,black
 8919,black
-892,black
 8920,black
 8921,white
 8922,black
@@ -8811,7 +8929,6 @@ ImageID,label
 8927,white
 8928,black
 8929,white
-893,black
 8930,black
 8931,white
 8932,white
@@ -8822,7 +8939,6 @@ ImageID,label
 8937,white
 8938,black
 8939,black
-894,white
 8940,white
 8941,black
 8942,black
@@ -8833,7 +8949,6 @@ ImageID,label
 8947,white
 8948,black
 8949,black
-895,black
 8950,black
 8951,black
 8952,white
@@ -8844,7 +8959,6 @@ ImageID,label
 8957,black
 8958,white
 8959,black
-896,black
 8960,black
 8961,black
 8962,black
@@ -8855,7 +8969,6 @@ ImageID,label
 8967,white
 8968,black
 8969,white
-897,black
 8970,black
 8971,white
 8972,white
@@ -8866,7 +8979,6 @@ ImageID,label
 8977,black
 8978,white
 8979,white
-898,black
 8980,white
 8981,white
 8982,black
@@ -8877,7 +8989,6 @@ ImageID,label
 8987,black
 8988,white
 8989,black
-899,white
 8990,black
 8991,white
 8992,white
@@ -8888,9 +8999,6 @@ ImageID,label
 8997,black
 8998,white
 8999,white
-9,black
-90,black
-900,white
 9000,black
 9001,white
 9002,black
@@ -8901,7 +9009,6 @@ ImageID,label
 9007,white
 9008,black
 9009,black
-901,black
 9010,white
 9011,white
 9012,black
@@ -8912,7 +9019,6 @@ ImageID,label
 9017,white
 9018,white
 9019,black
-902,black
 9020,black
 9021,black
 9022,black
@@ -8923,7 +9029,6 @@ ImageID,label
 9027,white
 9028,white
 9029,black
-903,white
 9030,white
 9031,white
 9032,black
@@ -8934,7 +9039,6 @@ ImageID,label
 9037,black
 9038,white
 9039,black
-904,white
 9040,white
 9041,black
 9042,white
@@ -8945,7 +9049,6 @@ ImageID,label
 9047,white
 9048,black
 9049,black
-905,white
 9050,white
 9051,white
 9052,white
@@ -8956,7 +9059,6 @@ ImageID,label
 9057,black
 9058,black
 9059,black
-906,black
 9060,white
 9061,white
 9062,black
@@ -8967,7 +9069,6 @@ ImageID,label
 9067,white
 9068,white
 9069,white
-907,black
 9070,black
 9071,black
 9072,black
@@ -8978,7 +9079,6 @@ ImageID,label
 9077,black
 9078,white
 9079,black
-908,black
 9080,white
 9081,white
 9082,white
@@ -8989,7 +9089,6 @@ ImageID,label
 9087,white
 9088,white
 9089,white
-909,black
 9090,black
 9091,black
 9092,white
@@ -9000,8 +9099,6 @@ ImageID,label
 9097,white
 9098,black
 9099,black
-91,white
-910,white
 9100,white
 9101,white
 9102,white
@@ -9012,7 +9109,6 @@ ImageID,label
 9107,black
 9108,white
 9109,black
-911,white
 9110,white
 9111,white
 9112,white
@@ -9023,7 +9119,6 @@ ImageID,label
 9117,black
 9118,black
 9119,black
-912,black
 9120,black
 9121,white
 9122,black
@@ -9034,7 +9129,6 @@ ImageID,label
 9127,white
 9128,black
 9129,white
-913,white
 9130,black
 9131,white
 9132,black
@@ -9045,7 +9139,6 @@ ImageID,label
 9137,black
 9138,white
 9139,white
-914,white
 9140,black
 9141,white
 9142,white
@@ -9056,7 +9149,6 @@ ImageID,label
 9147,white
 9148,white
 9149,white
-915,black
 9150,white
 9151,black
 9152,black
@@ -9067,7 +9159,6 @@ ImageID,label
 9157,white
 9158,black
 9159,black
-916,white
 9160,black
 9161,black
 9162,white
@@ -9078,7 +9169,6 @@ ImageID,label
 9167,black
 9168,white
 9169,white
-917,white
 9170,white
 9171,white
 9172,white
@@ -9089,7 +9179,6 @@ ImageID,label
 9177,black
 9178,white
 9179,white
-918,black
 9180,white
 9181,white
 9182,black
@@ -9100,7 +9189,6 @@ ImageID,label
 9187,white
 9188,black
 9189,black
-919,white
 9190,black
 9191,black
 9192,black
@@ -9111,8 +9199,6 @@ ImageID,label
 9197,black
 9198,white
 9199,black
-92,black
-920,white
 9200,white
 9201,white
 9202,white
@@ -9123,7 +9209,6 @@ ImageID,label
 9207,black
 9208,black
 9209,black
-921,black
 9210,black
 9211,white
 9212,black
@@ -9134,7 +9219,6 @@ ImageID,label
 9217,black
 9218,white
 9219,black
-922,black
 9220,black
 9221,white
 9222,black
@@ -9145,7 +9229,6 @@ ImageID,label
 9227,white
 9228,black
 9229,white
-923,black
 9230,white
 9231,black
 9232,white
@@ -9156,7 +9239,6 @@ ImageID,label
 9237,black
 9238,black
 9239,white
-924,white
 9240,white
 9241,white
 9242,black
@@ -9167,7 +9249,6 @@ ImageID,label
 9247,black
 9248,black
 9249,black
-925,black
 9250,white
 9251,black
 9252,black
@@ -9178,7 +9259,6 @@ ImageID,label
 9257,black
 9258,black
 9259,black
-926,white
 9260,black
 9261,black
 9262,white
@@ -9189,7 +9269,6 @@ ImageID,label
 9267,black
 9268,white
 9269,white
-927,black
 9270,white
 9271,black
 9272,black
@@ -9200,7 +9279,6 @@ ImageID,label
 9277,white
 9278,black
 9279,white
-928,white
 9280,white
 9281,white
 9282,white
@@ -9211,7 +9289,6 @@ ImageID,label
 9287,black
 9288,white
 9289,black
-929,white
 9290,white
 9291,black
 9292,black
@@ -9222,8 +9299,6 @@ ImageID,label
 9297,white
 9298,black
 9299,white
-93,white
-930,white
 9300,white
 9301,white
 9302,black
@@ -9234,7 +9309,6 @@ ImageID,label
 9307,black
 9308,black
 9309,white
-931,white
 9310,white
 9311,white
 9312,black
@@ -9245,7 +9319,6 @@ ImageID,label
 9317,white
 9318,white
 9319,white
-932,white
 9320,black
 9321,black
 9322,black
@@ -9256,7 +9329,6 @@ ImageID,label
 9327,white
 9328,black
 9329,white
-933,white
 9330,white
 9331,white
 9332,white
@@ -9267,7 +9339,6 @@ ImageID,label
 9337,white
 9338,black
 9339,black
-934,black
 9340,black
 9341,black
 9342,black
@@ -9278,7 +9349,6 @@ ImageID,label
 9347,white
 9348,white
 9349,black
-935,white
 9350,black
 9351,white
 9352,black
@@ -9289,7 +9359,6 @@ ImageID,label
 9357,black
 9358,black
 9359,white
-936,black
 9360,white
 9361,black
 9362,white
@@ -9300,7 +9369,6 @@ ImageID,label
 9367,black
 9368,white
 9369,white
-937,black
 9370,black
 9371,white
 9372,white
@@ -9311,7 +9379,6 @@ ImageID,label
 9377,white
 9378,white
 9379,black
-938,black
 9380,white
 9381,black
 9382,white
@@ -9322,7 +9389,6 @@ ImageID,label
 9387,black
 9388,white
 9389,white
-939,white
 9390,black
 9391,black
 9392,black
@@ -9333,8 +9399,6 @@ ImageID,label
 9397,white
 9398,white
 9399,black
-94,black
-940,black
 9400,white
 9401,white
 9402,black
@@ -9345,7 +9409,6 @@ ImageID,label
 9407,white
 9408,white
 9409,black
-941,black
 9410,white
 9411,white
 9412,white
@@ -9356,7 +9419,6 @@ ImageID,label
 9417,black
 9418,white
 9419,white
-942,black
 9420,black
 9421,black
 9422,black
@@ -9367,7 +9429,6 @@ ImageID,label
 9427,black
 9428,white
 9429,black
-943,white
 9430,black
 9431,black
 9432,black
@@ -9378,7 +9439,6 @@ ImageID,label
 9437,white
 9438,white
 9439,white
-944,black
 9440,white
 9441,white
 9442,white
@@ -9389,7 +9449,6 @@ ImageID,label
 9447,black
 9448,black
 9449,black
-945,black
 9450,black
 9451,black
 9452,white
@@ -9400,7 +9459,6 @@ ImageID,label
 9457,black
 9458,white
 9459,black
-946,black
 9460,black
 9461,black
 9462,white
@@ -9411,7 +9469,6 @@ ImageID,label
 9467,black
 9468,white
 9469,black
-947,black
 9470,white
 9471,black
 9472,black
@@ -9422,7 +9479,6 @@ ImageID,label
 9477,white
 9478,black
 9479,black
-948,white
 9480,black
 9481,black
 9482,white
@@ -9433,7 +9489,6 @@ ImageID,label
 9487,white
 9488,white
 9489,black
-949,white
 9490,black
 9491,black
 9492,black
@@ -9444,8 +9499,6 @@ ImageID,label
 9497,black
 9498,white
 9499,white
-95,white
-950,black
 9500,white
 9501,black
 9502,white
@@ -9456,7 +9509,6 @@ ImageID,label
 9507,black
 9508,white
 9509,black
-951,white
 9510,white
 9511,white
 9512,black
@@ -9467,7 +9519,6 @@ ImageID,label
 9517,black
 9518,white
 9519,black
-952,black
 9520,white
 9521,white
 9522,white
@@ -9478,7 +9529,6 @@ ImageID,label
 9527,white
 9528,black
 9529,black
-953,white
 9530,white
 9531,white
 9532,white
@@ -9489,7 +9539,6 @@ ImageID,label
 9537,white
 9538,white
 9539,white
-954,black
 9540,white
 9541,black
 9542,white
@@ -9500,7 +9549,6 @@ ImageID,label
 9547,white
 9548,black
 9549,white
-955,white
 9550,white
 9551,black
 9552,black
@@ -9511,7 +9559,6 @@ ImageID,label
 9557,white
 9558,black
 9559,white
-956,white
 9560,white
 9561,white
 9562,white
@@ -9522,7 +9569,6 @@ ImageID,label
 9567,white
 9568,black
 9569,white
-957,black
 9570,white
 9571,black
 9572,white
@@ -9533,7 +9579,6 @@ ImageID,label
 9577,black
 9578,white
 9579,white
-958,white
 9580,white
 9581,black
 9582,black
@@ -9544,7 +9589,6 @@ ImageID,label
 9587,black
 9588,white
 9589,white
-959,white
 9590,white
 9591,white
 9592,white
@@ -9555,8 +9599,6 @@ ImageID,label
 9597,black
 9598,black
 9599,black
-96,black
-960,black
 9600,white
 9601,black
 9602,black
@@ -9567,7 +9609,6 @@ ImageID,label
 9607,black
 9608,white
 9609,black
-961,white
 9610,black
 9611,white
 9612,black
@@ -9578,7 +9619,6 @@ ImageID,label
 9617,white
 9618,black
 9619,white
-962,black
 9620,white
 9621,white
 9622,white
@@ -9589,7 +9629,6 @@ ImageID,label
 9627,black
 9628,black
 9629,black
-963,white
 9630,white
 9631,black
 9632,black
@@ -9600,7 +9639,6 @@ ImageID,label
 9637,white
 9638,black
 9639,black
-964,white
 9640,black
 9641,white
 9642,white
@@ -9611,7 +9649,6 @@ ImageID,label
 9647,black
 9648,black
 9649,black
-965,white
 9650,black
 9651,black
 9652,black
@@ -9622,7 +9659,6 @@ ImageID,label
 9657,white
 9658,white
 9659,white
-966,white
 9660,black
 9661,white
 9662,white
@@ -9633,7 +9669,6 @@ ImageID,label
 9667,white
 9668,white
 9669,black
-967,black
 9670,black
 9671,white
 9672,white
@@ -9644,7 +9679,6 @@ ImageID,label
 9677,white
 9678,white
 9679,black
-968,black
 9680,white
 9681,white
 9682,black
@@ -9655,7 +9689,6 @@ ImageID,label
 9687,black
 9688,white
 9689,black
-969,black
 9690,black
 9691,white
 9692,black
@@ -9666,8 +9699,6 @@ ImageID,label
 9697,white
 9698,white
 9699,white
-97,white
-970,white
 9700,black
 9701,white
 9702,black
@@ -9678,7 +9709,6 @@ ImageID,label
 9707,black
 9708,white
 9709,black
-971,black
 9710,white
 9711,black
 9712,black
@@ -9689,7 +9719,6 @@ ImageID,label
 9717,black
 9718,white
 9719,white
-972,white
 9720,white
 9721,white
 9722,white
@@ -9700,7 +9729,6 @@ ImageID,label
 9727,black
 9728,white
 9729,white
-973,black
 9730,black
 9731,white
 9732,white
@@ -9711,7 +9739,6 @@ ImageID,label
 9737,white
 9738,white
 9739,black
-974,white
 9740,black
 9741,black
 9742,white
@@ -9722,7 +9749,6 @@ ImageID,label
 9747,black
 9748,white
 9749,white
-975,white
 9750,black
 9751,white
 9752,white
@@ -9733,7 +9759,6 @@ ImageID,label
 9757,white
 9758,black
 9759,black
-976,black
 9760,white
 9761,black
 9762,black
@@ -9744,7 +9769,6 @@ ImageID,label
 9767,white
 9768,white
 9769,white
-977,black
 9770,white
 9771,black
 9772,black
@@ -9755,7 +9779,6 @@ ImageID,label
 9777,white
 9778,white
 9779,black
-978,black
 9780,black
 9781,black
 9782,white
@@ -9766,7 +9789,6 @@ ImageID,label
 9787,black
 9788,black
 9789,black
-979,white
 9790,black
 9791,black
 9792,black
@@ -9777,8 +9799,6 @@ ImageID,label
 9797,white
 9798,black
 9799,white
-98,white
-980,white
 9800,white
 9801,white
 9802,black
@@ -9789,7 +9809,6 @@ ImageID,label
 9807,black
 9808,white
 9809,black
-981,black
 9810,white
 9811,black
 9812,white
@@ -9800,7 +9819,6 @@ ImageID,label
 9817,white
 9818,black
 9819,white
-982,black
 9820,black
 9821,black
 9822,white
@@ -9811,7 +9829,6 @@ ImageID,label
 9827,white
 9828,white
 9829,white
-983,white
 9830,white
 9831,white
 9832,white
@@ -9822,7 +9839,6 @@ ImageID,label
 9837,white
 9838,white
 9839,white
-984,black
 9840,black
 9841,black
 9842,black
@@ -9833,7 +9849,6 @@ ImageID,label
 9847,black
 9848,black
 9849,black
-985,white
 9850,black
 9851,white
 9852,white
@@ -9844,7 +9859,6 @@ ImageID,label
 9857,white
 9858,black
 9859,black
-986,white
 9860,white
 9861,white
 9862,black
@@ -9855,7 +9869,6 @@ ImageID,label
 9867,black
 9868,white
 9869,black
-987,white
 9870,white
 9871,white
 9872,white
@@ -9866,7 +9879,6 @@ ImageID,label
 9877,white
 9878,black
 9879,black
-988,black
 9880,black
 9881,black
 9882,black
@@ -9877,7 +9889,6 @@ ImageID,label
 9887,white
 9888,black
 9889,white
-989,white
 9890,white
 9891,black
 9892,black
@@ -9888,8 +9899,6 @@ ImageID,label
 9897,black
 9898,black
 9899,white
-99,white
-990,black
 9900,black
 9901,white
 9902,black
@@ -9900,7 +9909,6 @@ ImageID,label
 9907,white
 9908,white
 9909,white
-991,black
 9910,black
 9911,black
 9912,white
@@ -9911,7 +9919,6 @@ ImageID,label
 9917,black
 9918,black
 9919,white
-992,black
 9920,black
 9921,white
 9922,white
@@ -9922,7 +9929,6 @@ ImageID,label
 9927,white
 9928,black
 9929,black
-993,black
 9930,black
 9931,white
 9932,white
@@ -9933,7 +9939,6 @@ ImageID,label
 9937,black
 9938,black
 9939,black
-994,white
 9940,black
 9941,white
 9942,white
@@ -9944,7 +9949,6 @@ ImageID,label
 9947,black
 9948,black
 9949,black
-995,white
 9950,black
 9951,black
 9952,white
@@ -9955,7 +9959,6 @@ ImageID,label
 9957,white
 9958,white
 9959,white
-996,black
 9960,white
 9961,black
 9962,black
@@ -9966,7 +9969,6 @@ ImageID,label
 9967,white
 9968,white
 9969,black
-997,white
 9970,white
 9971,black
 9972,white
@@ -9977,7 +9979,6 @@ ImageID,label
 9977,white
 9978,white
 9979,black
-998,black
 9980,white
 9981,black
 9982,black
@@ -9988,7 +9989,6 @@ ImageID,label
 9987,black
 9988,white
 9989,black
-999,white
 9990,white
 9991,black
 9992,black

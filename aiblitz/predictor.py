@@ -1,15 +1,16 @@
 import os
 
 import numpy as np
-import matplotlib.pyplot as plt
+import pandas as pd
 import tqdm
 
 import torch
 from torch.utils.data.dataset import Dataset
 from torch.utils.data.dataloader import DataLoader
 
-from aiblitz.segment import segment_image, store_fen, idx_to_piece
+from aiblitz.segment import segment_image, store_fen, parse_fen, idx_to_piece
 from aiblitz.model import Net
+from aiblitz.eval import evaluate
 
 
 class BoardPredictionDataset(Dataset):
@@ -19,7 +20,7 @@ class BoardPredictionDataset(Dataset):
         :param question: string, Directory with all the images.
         """
         folder = "data/Q%d/%s" % (question, directory)
-        self.images = sorted(os.listdir(folder))
+        self.images = sorted(os.listdir(folder), key=lambda x: int(x[:-4]))
         self.question = question
         self.directory = directory
 
@@ -34,6 +35,7 @@ class BoardPredictionDataset(Dataset):
     def __str__(self):
         return "Predicting Q%d-%s" % (self.question, self.directory)
 
+
 def predict_one(model, image_frame):
     image = segment_image(image_frame)
     x = torch.stack([torch.from_numpy(image)])
@@ -42,7 +44,8 @@ def predict_one(model, image_frame):
     y = torch.argmax(y, -1)
     y = y.view(-1, 8, 8)
     return y
-    
+
+
 def predict(dataset):
     model = Net()
     model.load_state_dict(torch.load("weights/piece-recognizer.h5"))
@@ -113,5 +116,16 @@ def solve_3():
         f.close()
 
 
+def solve_5():
+    dataset = pd.read_csv("weights/train_fen_5.csv")
+    moves = pd.read_csv("data/Q5/train.csv")["turn"].values
+    positions = dataset["label"].values
+    result = evaluate(zip(positions, moves))
+    print(result)
+
+
 if __name__ == "__main__":
-    solve_3()
+    solve_5()
+    # solve_1()
+    # solve_2()
+    # solve_3()
