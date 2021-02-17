@@ -39,7 +39,7 @@ class BoardPredictionDataset(Dataset):
 def predict_one(model, image_frame):
     image = segment_image(image_frame)
     x = torch.stack([torch.from_numpy(image)])
-    x = x.view(-1, 1, 32, 32).float()
+    x = x.view(-1, 3, 32, 32).float()
     y = model(x)
     y = torch.argmax(y, -1)
     y = y.view(-1, 8, 8)
@@ -57,7 +57,7 @@ def predict(dataset):
         iterator = tqdm.tqdm(dataloader)
         iterator.set_description(str(dataset))
         for x in iterator:
-            x = x.view(-1, 1, 32, 32).float()
+            x = x.view(-1, 3, 32, 32).float()
             y = model(x)
             y = torch.argmax(y, -1)
             y = y.view(-1, 8, 8)
@@ -117,15 +117,27 @@ def solve_3():
 
 
 def solve_5():
-    dataset = pd.read_csv("weights/train_fen_5.csv")
-    moves = pd.read_csv("data/Q5/train.csv")["turn"].values
-    positions = dataset["label"].values
-    result = evaluate(zip(positions, moves))
-    print(result)
+    for folder in ["test", "train", "val"]:
+        dataset = BoardPredictionDataset(5, folder)
+        result = predict(dataset)
+        submission = []
+        for _idx, frame in enumerate(result):
+            submission.append(store_fen(frame))
+        with open("weights/%s_5.csv" % folder, "w") as f:
+            f.write("ImageID,label\n")
+            for image_name, result in zip(dataset.images, submission):
+                f.write(image_name[:-4] + "," + result + "\n")
+            f.close()
+
+    # dataset = pd.read_csv("weights/train_fen_5.csv")
+    # moves = pd.read_csv("data/Q5/train.csv")["turn"].values
+    # positions = dataset["label"].values
+    # result = evaluate(zip(positions, moves))
+    # print(result)
 
 
 if __name__ == "__main__":
-    solve_5()
     # solve_1()
     # solve_2()
     # solve_3()
+    solve_5()

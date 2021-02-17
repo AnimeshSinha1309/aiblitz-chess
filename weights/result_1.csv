@@ -463,7 +463,7 @@ ImageID,label
 461,black
 462,white
 463,white
-464,black
+464,white
 465,black
 466,black
 467,white
@@ -646,7 +646,7 @@ ImageID,label
 644,white
 645,black
 646,black
-647,black
+647,white
 648,white
 649,black
 650,black
@@ -1538,7 +1538,7 @@ ImageID,label
 1536,white
 1537,white
 1538,white
-1539,white
+1539,black
 1540,white
 1541,black
 1542,white
@@ -3300,7 +3300,7 @@ ImageID,label
 3298,black
 3299,white
 3300,white
-3301,white
+3301,black
 3302,black
 3303,white
 3304,white
@@ -3966,7 +3966,7 @@ ImageID,label
 3964,white
 3965,white
 3966,black
-3967,black
+3967,white
 3968,black
 3969,black
 3970,white
@@ -6483,7 +6483,7 @@ ImageID,label
 6481,white
 6482,black
 6483,black
-6484,white
+6484,black
 6485,white
 6486,black
 6487,black
@@ -6979,7 +6979,7 @@ ImageID,label
 6977,black
 6978,black
 6979,white
-6980,black
+6980,white
 6981,black
 6982,black
 6983,white
@@ -7781,7 +7781,7 @@ ImageID,label
 7779,white
 7780,black
 7781,black
-7782,black
+7782,white
 7783,black
 7784,white
 7785,white
@@ -8342,7 +8342,7 @@ ImageID,label
 8340,white
 8341,black
 8342,white
-8343,black
+8343,white
 8344,white
 8345,black
 8346,white
@@ -8966,7 +8966,7 @@ ImageID,label
 8964,white
 8965,black
 8966,white
-8967,white
+8967,black
 8968,black
 8969,white
 8970,black
