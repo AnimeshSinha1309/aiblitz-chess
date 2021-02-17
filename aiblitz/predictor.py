@@ -118,31 +118,70 @@ def solve_3():
         f.close()
 
 
+def make_labels_integer(seq):
+    return [WHITE if x == "white" else BLACK for x in seq]
+
+
+def make_labels_string(seq):
+    return ["white" if x == WHITE else "black" for x in seq]
+
+
 def solve_5_train():
     N = 1000
 
     train_csv = pd.read_csv("data/Q5/train.csv")
     moves = train_csv["turn"].values
     answers = train_csv["label"].values
-    answers = list(map(lambda x: WHITE if x == "white" else BLACK, answers))
+    answers = make_labels_integer(answers)
+    moves = make_labels_integer(moves)
+
     answers = answers[:N]
 
     dataset = pd.read_csv("weights/train_fen_5.csv")
     positions = dataset["label"].values
 
-    result = evaluate(zip(positions[:N], moves[:N]))
+    positions, moves = positions[:N], moves[:N]
+    result = evaluate(zip(positions, moves))
     # result = evaluate(zip(positions, moves))
 
     acc = accuracy_score(answers, result)
+
     print(f"Train accuracy: {acc}")
+
+    # for i in range(N):
+    #     if answers[i] != result[i]:
+    #         print(f"Position: {i}")
+    #         print(f"Answer: {answers[i]}")
+    #         print(f"Board\n{positions[i]}")
+    #         print(f"Move (official): {moves[i]}")
 
 
 def solve_5_test():
-    pass
+    test_csv = pd.read_csv("data/Q5/test.csv", index_col=None)
+    image_ids = test_csv["ImageID"].values
+    moves = test_csv["turn"].values
+    moves = make_labels_integer(moves)
+
+    dataset = pd.read_csv("weights/test_fen_5.csv")
+    positions = dataset["label"].values
+
+    result = evaluate(zip(positions, moves))
+    result = make_labels_string(result)
+
+    cols = ["ImageID", "label"]
+    df = pd.DataFrame({"ImageID": image_ids, "label": result}, columns=cols)
+    df.to_csv("submit_5.csv", index=False)
+    # for i in range(N):
+    #     if answers[i] != result[i]:
+    #         print(f"Position: {i}")
+    #         print(f"Answer: {answers[i]}")
+    #         print(f"Board\n{positions[i]}")
+    #         print(f"Move (official): {moves[i]}")
 
 
 if __name__ == "__main__":
-    solve_5_train()
+    # solve_5_train()
+    solve_5_test()
     # solve_1()
     # solve_2()
     # solve_3()

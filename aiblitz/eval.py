@@ -26,14 +26,35 @@ def get_board(fen, move):
         return chess.Board(chess.STARTING_BOARD_FEN)
 
 
+counter = 0
+
+MATE_SCORE = 10000000
+
+
 def score_move(engine, fen, move):
     position = get_board(fen, move)
 
+    dbg = False
+    # dbg = counter == 468
+
+    if dbg:
+        print(f"{fen} {move}")
+        print(position.status())
+
     if position.is_checkmate():
-        pos_score = -10000000000  # whoever is moving is losing
+        if dbg:
+            print("mated")
+        pos_score = -MATE_SCORE  # whoever is moving is losing
+    elif (position.status() & chess.STATUS_OPPOSITE_CHECK) > 0:
+        if dbg:
+            print("mating others")
+        pos_score = MATE_SCORE
     elif not position.is_valid():
-        pos_score = 0  # nobody cares
+        if dbg:
+            print("invalid")
+        pos_score = None  # nobody cares
     else:
+        # changing engine time limit does not help improve accuracy
         info = engine.analyse(position, chess.engine.Limit(time=0.1))
 
         pos_score = info["score"]
@@ -44,27 +65,39 @@ def score_move(engine, fen, move):
         else:
             pos_score = pos_score.black()
 
-        pos_score = pos_score.score(mate_score=10000)
+        pos_score = pos_score.score(mate_score=MATE_SCORE)
         # except chess.engine.EngineTerminatedError:
         #     print("Terminated", position, position.fen(), position.is_valid())
         #     assert False
+        if dbg:
+            print(f'Score: {pos_score}')
 
-    assert (pos_score is not None)
     return pos_score
 
 
-def evaluate_one(engine, fen):
+def evaluate_one(engine, fen, turn):
     score0 = score_move(engine, fen, VALID_MOVES[0])
     score1 = score_move(engine, fen, VALID_MOVES[1])
 
-    return 0 if score0 > score1 else 1
+    if score0 is None:
+        winner = 1
+    elif score1 is None:
+        winner = 0
+    else:
+        use_score = score0 > score1 if turn == 0 else score1 > score0
+        winner = turn if use_score > 0 else 1 - turn
+
+    global counter
+    counter += 1
+
+    return winner
 
 
 def evaluate(fen_list):
     fen_list = list(fen_list)
 
     engine = engine_init()
-    results = [evaluate_one(engine, fen) for fen, _turn in tqdm.tqdm(fen_list)]
+    results = [evaluate_one(engine, fen, turn) for fen, turn in tqdm.tqdm(fen_list)]
     engine.quit()
 
     return results
