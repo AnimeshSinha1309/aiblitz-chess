@@ -1,8 +1,5 @@
 import chess.engine
-import ray
-
-ray.shutdown()
-ray.init()
+import tqdm
 
 
 def engine_init():
@@ -27,14 +24,7 @@ def get_board(fen, move):
         return chess.Board(chess.STARTING_BOARD_FEN)
 
 
-@ray.remote
-def evaluate_one(fen):
-    engine = engine_init()
-    engine.close()
-    return 0
-
-
-def others(fen):
+def evaluate_one(engine, fen):
     winner = None
     positions = [get_board(fen, move) for move in VALID_MOVES]
 
@@ -47,35 +37,36 @@ def others(fen):
         scores = []
 
         for move, position in zip(VALID_MOVES, positions):
-            try:
-                # Path to executable, get it from here https://stockfishchess.org/download/
-                info = engine.analyse(position, chess.engine.Limit(time=1))
+            if not position.is_valid():
+                pos_score = 0
+            else:
+                try:
+                    # Path to executable, get it from here https://stockfishchess.org/download/
+                    info = engine.analyse(position, chess.engine.Limit(time=0.1))
 
-                # get a relative integer score from white's perspective, the score is in centi-pawns
-                score = info["score"].white().score(mate_score=10000)
+                    # get a relative integer score from white's perspective, the score is in centi-pawns
+                    score = info["score"].white().score(mate_score=10000)
 
-                # print("Score:", score, fen)
-                scores.append(abs(score))
-            except chess.engine.EngineTerminatedError:
-                engine = engine_init()
-                scores.append(0)
-                # print(e)
-                # print("This move is incorrect")
+                    # print("Score:", score, fen)
+                    pos_score = abs(score)
+                except chess.engine.EngineTerminatedError:
+                    print("Terminated", position, position.fen(), position.is_valid())
+                    assert False
+
+            assert (pos_score is not None)
+            scores.append(pos_score)
 
         winner = VALID_MOVES[0] if scores[0] > scores[1] else VALID_MOVES[1]
 
     assert (winner is not None)
-    engine.quit()
     return winner
 
 
 def evaluate(fen_list):
-    fen_list = list(fen_list)[:10]
+    fen_list = list(fen_list)
 
-    results = []
-    for fen, _turn in fen_list:
-        results.append(evaluate_one.remote(fen))
-
-    results = ray.get(results)
+    engine = engine_init()
+    results = [evaluate_one(engine, fen) for fen, _turn in tqdm.tqdm(fen_list)]
+    engine.quit()
 
     return results
