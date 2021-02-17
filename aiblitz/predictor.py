@@ -10,7 +10,9 @@ from torch.utils.data.dataloader import DataLoader
 
 from aiblitz.segment import segment_image, store_fen, parse_fen, idx_to_piece
 from aiblitz.model import Net
-from aiblitz.eval import evaluate
+from aiblitz.eval import evaluate, WHITE, BLACK
+
+from sklearn.metrics import accuracy_score
 
 
 class BoardPredictionDataset(Dataset):
@@ -116,16 +118,31 @@ def solve_3():
         f.close()
 
 
-def solve_5():
+def solve_5_train():
+    N = 1000
+
+    train_csv = pd.read_csv("data/Q5/train.csv")
+    moves = train_csv["turn"].values
+    answers = train_csv["label"].values
+    answers = list(map(lambda x: WHITE if x == "white" else BLACK, answers))
+    answers = answers[:N]
+
     dataset = pd.read_csv("weights/train_fen_5.csv")
-    moves = pd.read_csv("data/Q5/train.csv")["turn"].values
     positions = dataset["label"].values
-    result = evaluate(zip(positions, moves))
-    print(result)
+
+    result = evaluate(zip(positions[:N], moves[:N]))
+    # result = evaluate(zip(positions, moves))
+
+    acc = accuracy_score(answers, result)
+    print(f"Train accuracy: {acc}")
+
+
+def solve_5_test():
+    pass
 
 
 if __name__ == "__main__":
-    solve_5()
+    solve_5_train()
     # solve_1()
     # solve_2()
     # solve_3()
