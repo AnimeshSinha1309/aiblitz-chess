@@ -10,7 +10,9 @@ from torch.utils.data.dataloader import DataLoader
 
 from aiblitz.segment import segment_image, store_fen, parse_fen, idx_to_piece
 from aiblitz.model import Net
-from aiblitz.eval import evaluate
+from aiblitz.eval import evaluate, WHITE, BLACK
+
+from sklearn.metrics import accuracy_score
 
 
 class BoardPredictionDataset(Dataset):
@@ -116,7 +118,7 @@ def solve_3():
         f.close()
 
 
-def solve_5():
+def pre_solve_5():
     for folder in ["test", "train", "val"]:
         dataset = BoardPredictionDataset(5, folder)
         result = predict(dataset)
@@ -129,15 +131,65 @@ def solve_5():
                 f.write(image_name[:-4] + "," + result + "\n")
             f.close()
 
-    # dataset = pd.read_csv("weights/train_fen_5.csv")
-    # moves = pd.read_csv("data/Q5/train.csv")["turn"].values
-    # positions = dataset["label"].values
+
+def make_labels_integer(seq):
+    return [WHITE if x == "white" else BLACK for x in seq]
+
+
+def make_labels_string(seq):
+    return ["white" if x == WHITE else "black" for x in seq]
+
+
+def solve_5_train():
+    N = 1000
+
+    train_csv = pd.read_csv("data/Q5/train.csv")
+    moves = train_csv["turn"].values
+    answers = train_csv["label"].values
+    answers = make_labels_integer(answers)
+    moves = make_labels_integer(moves)
+
+    answers = answers[:N]
+
+    dataset = pd.read_csv("weights/train_fen_5.csv")
+    positions = dataset["label"].values
+
+    positions, moves = positions[:N], moves[:N]
+    result = evaluate(zip(positions, moves))
     # result = evaluate(zip(positions, moves))
-    # print(result)
+
+    acc = accuracy_score(answers, result)
+
+    print(f"Train accuracy: {acc}")
+
+    # for i in range(N):
+    #     if answers[i] != result[i]:
+    #         print(f"Position: {i}")
+    #         print(f"Answer: {answers[i]}")
+    #         print(f"Board\n{positions[i]}")
+    #         print(f"Move (official): {moves[i]}")
+
+
+def solve_5_test():
+    test_csv = pd.read_csv("data/Q5/test.csv", index_col=None)
+    image_ids = test_csv["ImageID"].values
+    moves = test_csv["turn"].values
+    moves = make_labels_integer(moves)
+
+    dataset = pd.read_csv("weights/test_fen_5.csv")
+    positions = dataset["label"].values
+
+    result = evaluate(zip(positions, moves))
+    result = make_labels_string(result)
+
+    cols = ["ImageID", "label"]
+    df = pd.DataFrame({"ImageID": image_ids, "label": result}, columns=cols)
+    df.to_csv("submit_5.csv", index=False)
 
 
 if __name__ == "__main__":
+    # solve_5_train()
+    solve_5_test()
     # solve_1()
     # solve_2()
     # solve_3()
-    solve_5()
