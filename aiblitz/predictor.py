@@ -8,9 +8,10 @@ import torch
 from torch.utils.data.dataset import Dataset
 from torch.utils.data.dataloader import DataLoader
 
-from aiblitz.segment import segment_image, store_fen, parse_fen, idx_to_piece
+from aiblitz.segment import segment_image, store_fen, idx_to_piece
 from aiblitz.model import Net
 from aiblitz.eval import evaluate, WHITE, BLACK
+from aiblitz.video import predict_move
 
 from sklearn.metrics import accuracy_score
 
@@ -38,14 +39,16 @@ class BoardPredictionDataset(Dataset):
         return "Predicting Q%d-%s" % (self.question, self.directory)
 
 
-def predict_one(model, image_frame):
-    image = segment_image(image_frame)
-    x = torch.stack([torch.from_numpy(image)])
-    x = x.view(-1, 3, 32, 32).float()
-    y = model(x)
-    y = torch.argmax(y, -1)
-    y = y.view(-1, 8, 8)
-    return y
+def predict_batch(model, image_frames):
+    with torch.no_grad():
+        model.eval()
+        images = [torch.from_numpy(segment_image(image_frame)) for image_frame in image_frames]
+        x = torch.stack(images)
+        x = x.view(-1, 3, 32, 32).float()
+        y = model(x)
+        y = torch.argmax(y, -1)
+        y = y.view(-1, 8, 8)
+    return y.numpy()
 
 
 def predict(dataset):
@@ -115,6 +118,19 @@ def solve_3():
         f.write("ImageID,label\n")
         for image_name, result in zip(dataset.images, submission):
             f.write(image_name[:-4] + "," + result + "\n")
+        f.close()
+
+
+def solve_4():
+    videos = sorted(os.listdir("data/Q4/test"), key=lambda x: int(x[:-4]))
+    model = Net()
+    model.load_state_dict(torch.load("weights/piece-recognizer.h5"))
+
+    with open("weights/result_3.csv", "w") as f:
+        f.write("VideoID,label\n")
+        for video_name in tqdm.tqdm(videos):
+            result = predict_move(video_name, model)
+            f.write(video_name[:-4] + "," + result + "\n")
         f.close()
 
 
@@ -188,8 +204,9 @@ def solve_5_test():
 
 
 if __name__ == "__main__":
+    solve_4()
     # solve_5_train()
-    solve_5_test()
+    # solve_5_test()
     # solve_1()
     # solve_2()
     # solve_3()
