@@ -3,22 +3,27 @@ import cv2
 import torch
 
 from aiblitz.model import Net
-from aiblitz.predictor import predict_batch
-from aiblitz.segment import store_fen
+from aiblitz.segment import store_fen, segment_image
 
+# from matplotlib import pyplot as plt
 import chess
 
-"""
-Frames are read from mp4 file present at dir_in/filename.mp4
-and the frames are extracted to dir_out/filename/frameN.jpg
-The first frame is recorded at 0ms, and every next frame is
-with a delay of DELAYms
-"""
+
+def predict_batch(model, image_frames):
+    with torch.no_grad():
+        model.eval()
+        images = [torch.from_numpy(segment_image(image_frame)) for image_frame in image_frames]
+        x = torch.stack(images)
+        x = x.view(-1, 3, 32, 32).float()
+        y = model(x)
+        y = torch.argmax(y, -1)
+        y = y.view(-1, 8, 8)
+    return y.numpy()
 
 
-def extract_images(file_id, model, delay=100):
+def extract_images(file_id, model, folder="test", delay=100):
     # Get the predictions
-    path = f"data/Q4/train/{file_id}.mp4"
+    path = f"data/Q4/{folder}/{file_id}.mp4"
     video_capture = cv2.VideoCapture(path)
     frames = []
     for index in range(100):
@@ -26,7 +31,11 @@ def extract_images(file_id, model, delay=100):
         success, image_frame = video_capture.read()
         if not success:
             break
+        # plt.imshow(image_frame)
+        # plt.show()
         frames.append(image_frame)
+    if len(frames) == 0:
+        return []
     results = predict_batch(model, frames)
     # Convert to FEN
     fen_list = []
@@ -35,19 +44,6 @@ def extract_images(file_id, model, delay=100):
         if len(fen_list) < 1 or fen != fen_list[-1]:
             fen_list.append(fen)
     return fen_list
-
-
-def predict_move(file_id, model):
-    fen_list = extract_images(file_id, model)
-    # TODO: Convert FEN-List to move-list
-    print(fen_list)  # Dummy statement, write code here
-    move_list = []
-    return move_list
-
-
-"""
-turn must be "white" or "black"
-"""
 
 
 def give_move(from_fen, to_fen, turn):
@@ -62,31 +58,33 @@ def give_move(from_fen, to_fen, turn):
     assert False
 
 
-def give_moves(fen_list, initial_turn):
-    prev_fen = fen_list[0]
-    moves = []
-    turn = initial_turn
-    for i, fen in enumerate(fen_list[1:]):
-        moves.append(give_move(prev_fen, fen, turn))
-        prev_fen = fen
-        turn = "black" if turn == "white" else "white"
+def predict_move(file_id, model):
+    fen_list = extract_images(file_id, model)
+    if len(fen_list) <= 1:
+        print(f"{len(fen_list)} frames extracted from video file {file_id}")
+        return []
+    # TODO: Convert FEN-List to move-list
+    for initial_turn in ["black", "white"]:
+        prev_fen = fen_list[0]
+        moves = []
+        successful_parsing = True
+        turn = initial_turn
+        for i, fen in enumerate(fen_list[1:]):
+            try:
+                moves.append(give_move(prev_fen, fen, turn))
+            except AssertionError:
+                successful_parsing = False
+                break
+            prev_fen = fen
+            turn = "black" if turn == "white" else "white"
+        if successful_parsing:
+            return moves
 
-    return moves
-
-
-def tests_move():
-    from_fen = "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR"
-    to_fen = "rnbqkbnr/pppppppp/8/8/8/2N5/PPPPPPPP/R1BQKBNR"
-    assert give_move(from_fen, to_fen, "white") == "b1c3"
-    from_fen = "rnbqkbnr/pp1p1ppp/8/2p1p3/5P2/2NP4/PPP1P1PP/R1BQKBNR"
-    to_fen = "rnb1kbnr/pp1p1ppp/8/2p1p3/5P1q/2NP4/PPP1P1PP/R1BQKBNR"
-    assert give_move(from_fen, to_fen, "black") == "d8h4"
-    print("All tests passed")
+    print("Could not Parse video file", file_id)
+    return []
 
 
 if __name__ == "__main__":
     network = Net()
     network.load_state_dict(torch.load("weights/piece-recognizer.h5"))
-    print(predict_move(1, network))
-    # extract_images(1)
-    tests_move()
+    print(predict_move(0, network))

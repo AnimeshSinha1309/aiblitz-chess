@@ -39,18 +39,6 @@ class BoardPredictionDataset(Dataset):
         return "Predicting Q%d-%s" % (self.question, self.directory)
 
 
-def predict_batch(model, image_frames):
-    with torch.no_grad():
-        model.eval()
-        images = [torch.from_numpy(segment_image(image_frame)) for image_frame in image_frames]
-        x = torch.stack(images)
-        x = x.view(-1, 3, 32, 32).float()
-        y = model(x)
-        y = torch.argmax(y, -1)
-        y = y.view(-1, 8, 8)
-    return y.numpy()
-
-
 def predict(dataset):
     model = Net()
     model.load_state_dict(torch.load("weights/piece-recognizer.h5"))
@@ -122,7 +110,7 @@ def solve_3():
 
 
 def solve_4():
-    videos = sorted(os.listdir("data/Q4/test"), key=lambda x: int(x[:-4]))
+    videos = sorted(list(map(lambda x: int(x[:-4]), os.listdir("data/Q4/test"))))
     model = Net()
     model.load_state_dict(torch.load("weights/piece-recognizer.h5"))
 
@@ -130,7 +118,7 @@ def solve_4():
         f.write("VideoID,label\n")
         for video_name in tqdm.tqdm(videos):
             result = predict_move(video_name, model)
-            f.write(video_name[:-4] + "," + result + "\n")
+            f.write(str(video_name) + "," + " ".join(result) + "\n")
         f.close()
 
 
