@@ -9,7 +9,7 @@ from torch.utils.data.dataset import Dataset
 from torch.utils.data.dataloader import DataLoader
 
 from aiblitz.segment import segment_image, store_fen, idx_to_piece
-from aiblitz.model import Net
+from aiblitz.models.conv import Net
 from aiblitz.eval import evaluate, WHITE, BLACK
 from aiblitz.video import predict_move
 
@@ -144,57 +144,56 @@ def make_labels_string(seq):
     return ["white" if x == WHITE else "black" for x in seq]
 
 
-def solve_5_train():
-    N = 1000
+def solve_5_train(subset='test'):
+    if subset == 'train':
+        n = 1000
 
-    train_csv = pd.read_csv("data/Q5/train.csv")
-    moves = train_csv["turn"].values
-    answers = train_csv["label"].values
-    answers = make_labels_integer(answers)
-    moves = make_labels_integer(moves)
+        train_csv = pd.read_csv("data/Q5/train.csv")
+        moves = train_csv["turn"].values
+        answers = train_csv["label"].values
+        answers = make_labels_integer(answers)
+        moves = make_labels_integer(moves)
 
-    answers = answers[:N]
+        answers = answers[:n]
 
-    dataset = pd.read_csv("weights/train_fen_5.csv")
-    positions = dataset["label"].values
+        dataset = pd.read_csv("weights/train_fen_5.csv")
+        positions = dataset["label"].values
 
-    positions, moves = positions[:N], moves[:N]
-    result = evaluate(zip(positions, moves))
-    # result = evaluate(zip(positions, moves))
+        positions, moves = positions[:n], moves[:n]
+        result = evaluate(zip(positions, moves))
+        # result = evaluate(zip(positions, moves))
 
-    acc = accuracy_score(answers, result)
+        acc = accuracy_score(answers, result)
 
-    print(f"Train accuracy: {acc}")
+        print(f"Train accuracy: {acc}")
 
-    # for i in range(N):
-    #     if answers[i] != result[i]:
-    #         print(f"Position: {i}")
-    #         print(f"Answer: {answers[i]}")
-    #         print(f"Board\n{positions[i]}")
-    #         print(f"Move (official): {moves[i]}")
+        # for i in range(n):
+        #     if answers[i] != result[i]:
+        #         print(f"Position: {i}")
+        #         print(f"Answer: {answers[i]}")
+        #         print(f"Board\n{positions[i]}")
+        #         print(f"Move (official): {moves[i]}")
 
+    else:
+        test_csv = pd.read_csv("data/Q5/test.csv", index_col=None)
+        image_ids = test_csv["ImageID"].values
+        moves = test_csv["turn"].values
+        moves = make_labels_integer(moves)
 
-def solve_5_test():
-    test_csv = pd.read_csv("data/Q5/test.csv", index_col=None)
-    image_ids = test_csv["ImageID"].values
-    moves = test_csv["turn"].values
-    moves = make_labels_integer(moves)
+        dataset = pd.read_csv("weights/test_fen_5.csv")
+        positions = dataset["label"].values
 
-    dataset = pd.read_csv("weights/test_fen_5.csv")
-    positions = dataset["label"].values
+        result = evaluate(zip(positions, moves))
+        result = make_labels_string(result)
 
-    result = evaluate(zip(positions, moves))
-    result = make_labels_string(result)
-
-    cols = ["ImageID", "label"]
-    df = pd.DataFrame({"ImageID": image_ids, "label": result}, columns=cols)
-    df.to_csv("submit_5.csv", index=False)
+        cols = ["ImageID", "label"]
+        df = pd.DataFrame({"ImageID": image_ids, "label": result}, columns=cols)
+        df.to_csv("submit_5.csv", index=False)
 
 
 if __name__ == "__main__":
     solve_4()
-    # solve_5_train()
-    # solve_5_test()
+    # solve_5()
     # solve_1()
     # solve_2()
     # solve_3()

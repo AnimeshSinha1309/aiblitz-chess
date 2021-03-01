@@ -2,10 +2,9 @@ import cv2
 
 import torch
 
-from aiblitz.model import Net
+from aiblitz.models.conv import Net
 from aiblitz.segment import store_fen, segment_image
 
-# from matplotlib import pyplot as plt
 import chess
 
 
@@ -31,8 +30,6 @@ def extract_images(file_id, model, folder="test", delay=100):
         success, image_frame = video_capture.read()
         if not success:
             break
-        # plt.imshow(image_frame)
-        # plt.show()
         frames.append(image_frame)
     if len(frames) == 0:
         return []

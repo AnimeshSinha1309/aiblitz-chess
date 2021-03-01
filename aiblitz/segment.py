@@ -4,22 +4,28 @@ from matplotlib import pyplot as plt
 import cv2 as cv
 
 
-def segment_image(image_or_path, result_size=32):
+def segment_image(image_or_path, result_size=28, grayscale=False):
     if isinstance(image_or_path, str):
         image = cv.imread(image_or_path)
+        if grayscale:
+            image = cv.cvtColor(image, cv.COLOR_BGR2GRAY)
     else:
         image = image_or_path
     image = cv.resize(image, (8 * result_size, 8 * result_size))
-    image = image.reshape((8, result_size, 8, result_size, 3)).transpose(0, 2, 4, 1, 3)
+    image = image.reshape((8, result_size, 8, result_size, (3 if not grayscale else 1))).transpose(0, 2, 4, 1, 3)
     return image
 
 
-def show_grid(grid):
+def show_grid(grid, grayscale=False):
+    grid = grid.transpose(0, 1, 3, 4, 2)
     plt.figure(figsize=(16, 16))
     for i in range(8):
         for j in range(8):
             plt.subplot(8, 8, i * 8 + j + 1)
-            plt.imshow(grid[i, j], cmap='gray')
+            if grayscale:
+                plt.imshow(np.squeeze(grid[i, j]), cmap='gray')
+            else:
+                plt.imshow(grid[i, j])
     plt.show()
 
 
@@ -61,11 +67,12 @@ def store_fen(board):
 
 
 if __name__ == "__main__":
-    df_train = pd.read_csv("../data/Q3/train.csv")
-    df_val = pd.read_csv("../data/Q3/val.csv")
+    df_train = pd.read_csv("data/Q3/train.csv")
+    df_val = pd.read_csv("data/Q3/val.csv")
+
+    image_path = "data/Q3/train/%d.jpg" % df_train["ImageID"][0]
     x = parse_fen(df_train["label"][0])
 
-    image_path = "../data/Q3/train/%d.jpg" % df_train["ImageID"][0]
     segmented_image = segment_image(image_path)
     show_grid(segmented_image)
     print(x)
